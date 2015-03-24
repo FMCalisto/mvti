@@ -111,4 +111,5 @@ Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do p
 ## Glossário de Termos
 
 MVTI - Minitel Virtual TPA Implementation
+
 TPA - Terminal de Pagamento Automático
