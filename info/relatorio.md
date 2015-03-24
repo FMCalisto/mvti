@@ -81,9 +81,12 @@ francisco.mcalisto@gmail.com
 ```
 
 Informação que considero confidencial e de que não partilhei com o meu Exemo. colega João Miranda directamente
-de uma forma de evitar a perda de informação fidedigna a qual o mesmo compreendeu.
+e detalhadamente de forma a evitar a perda de informação fidedigna, sendo que o mesmo compreendeu a minha atitude.
 
-Compreender melhor a solução.
+Compreender melhor a solução, abordar as necessidades da equipa e do cliente, metas, prazos e objectivos sobre o
+projecto em causa.
+
+Constatar informação e todos os pontos pendentes.
 
 
 
@@ -93,7 +96,10 @@ Compreender melhor a solução.
 
 @author: Francisco Maria Calisto
 
-Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do projecto.
+Falei via telemóvel com o Pedro Paula e com o Pai do João George, sendo que amobos me enviaram os E-Mails co
+a informação necessária ao mapeaento e compreendão de uma solução viável.
+
+Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do projecto, chamada que durou 21 minutos.
 
 ### 25/03/2015
 
