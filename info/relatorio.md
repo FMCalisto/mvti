@@ -29,7 +29,7 @@ João Miranda
 
 (ALTERAR SEMPRE QUE NECESSÁRIO)
 
-2h
+3h
 
 Nota: esta estimativa a contabilização de horas efectivas para programação do site
 e respectivas implementações, etc... Assim como o tempo de obtenção de conhecimento, etc...
@@ -83,9 +83,17 @@ francisco.mcalisto@gmail.com
 Informação que considero confidencial e de que não partilhei com o meu Exemo. colega João Miranda directamente
 de uma forma de evitar a perda de informação fidedigna a qual o mesmo compreendeu.
 
+Compreender melhor a solução.
+
 
 
 ## Reuniões
+
+### 24/03/2015
+
+@author: Francisco Maria Calisto
+
+Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do projecto.
 
 ### 25/03/2015
 
