@@ -1,4 +1,4 @@
-# Relatório do Projecto mvti
+# Relatório do Projecto MVTI
 
 
 ##### autor:
@@ -104,3 +104,11 @@ Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do p
 ### 25/03/2015
 
 (COLOCAR AQUI INFO DAS REUNIÕES E APAGAR ESTE TEXTO)
+
+
+
+
+## Glossário de Termos
+
+MVTI - Minitel Virtual TPA Implementation
+TPA - Terminal de Pagamento Automático
