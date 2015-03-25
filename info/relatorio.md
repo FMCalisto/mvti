@@ -30,7 +30,7 @@ João Miranda
 
 (ALTERAR SEMPRE QUE NECESSÁRIO)
 
-5h
+6h
 
 Nota: esta estimativa a contabilização de horas efectivas para programação do site
 e respectivas implementações, etc... Assim como o tempo de obtenção de conhecimento, etc...
@@ -161,6 +161,12 @@ a comprender e aconselhar a sua compra.
 Numa versão inicial ```(v1.0)``` será feito e integrado primitivamente na plataforma da ***Prestashop*** e mais
 tarde numa segunda versão ```(v2.0)``` será então aprimorado a parte da Interface se assim for necessário assim
 como incorporar o sistema PHC no mesmo.
+
+
+#### 25/03/2015
+
+Reuni-me com o eu colega João Miranda via Skype para discutir assuntos do projecto e abordagens possiveis assim
+como orçamentos e metodologias de trabalho.
 
 
 
