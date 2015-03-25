@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 14px;
+	color: #000000;
+}
+
+p { /*Disponivel para configuração*/
+	font-weight: bold;
+}
+
+a.btn { /*Disponivel para configuração*/
+	font-weight: normal;
+	/*text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	background: url("../../tpavirtual/img/btn.jpg");
+	background-repeat: no-repeat;
+	color: #fff;
+	width: 116px;
+	height: 29px;
+	padding-top: 5px;
+	display: block;
+	text-align: center;*/
+}
+
+.titleCardData { /*Disponivel para configuração*/
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.mchData { /*Disponivel para configuração*/
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+}
+
+#carddata { /*Disponivel para configuração*/
+	
+}
+
+#purchasedata { /*Disponivel para configuração*/
+	
+}
+
+#cltform { /*Disponivel para configuração: ctlForm = carddata + purchasedata*/
+	background: url("../../tpavirtual/img/galax.jpg");
+	background-position-x: 100%;
+	background-position-y: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: #dddddd;
+}
+
+/*Para o footer é necessário garantir que o background em branco*/
+#footer {
+	clear: both;
+	background-color: #ffffff
+}
+
+#hintbox { /*Disponivel para configuração*/
+	position: absolute;
+	top: 0;
+	background-color: #CCCCCC;
+	width: 150px; /*Default width of hint.*/
+	padding: 3px;
+	border: 1px solid black;
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	line-height: 18px;
+	z-index: 100;
+	visibility: hidden;
+}

@@ -1,0 +1,1 @@
+O projecto está criado em Visual Studio 2012 mas para utilização do código apenas é necessário  copiar o usercontrol (ascx + ascx.cs) e inclui-lo numa página do seu site.

@@ -1,0 +1,5 @@
+c:\users\andre fonseca\documents\visual studio 2012\Projects\demo_TPAv\WebApplication1\bin\WebApplication1.dll
+c:\users\andre fonseca\documents\visual studio 2012\Projects\demo_TPAv\WebApplication1\bin\WebApplication1.pdb
+c:\users\andre fonseca\documents\visual studio 2012\Projects\demo_TPAv\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\andre fonseca\documents\visual studio 2012\Projects\demo_TPAv\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Andre Fonseca\documents\visual studio 2012\Projects\demo_TPAv\WebApplication1\obj\Debug\Demo TPAv.csprojResolveAssemblyReference.cache
