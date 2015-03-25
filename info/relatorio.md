@@ -4,6 +4,7 @@
 ##### autor:
 
 Francisco Maria Calisto
+
 João Miranda
 
 
@@ -29,7 +30,7 @@ João Miranda
 
 (ALTERAR SEMPRE QUE NECESSÁRIO)
 
-3h
+5h
 
 Nota: esta estimativa a contabilização de horas efectivas para programação do site
 e respectivas implementações, etc... Assim como o tempo de obtenção de conhecimento, etc...
@@ -67,7 +68,11 @@ a documentação própria para o mesmo se tal for necessário e adequado.
 
 #### Ideias
 
-(COLOCAR AQUI IDEIAS E APAGAR ESTE TEXTO)
+### 25/03/2015
+
+Colocar a resposta ao serviço da SIBS através de Base de Dados não relacional via E-Mail
+no E-Mail gerado automáticamente pela plataforma do site da Minitel após o Cliente
+efectuar a respectiva encomenda.
 
 
 ### 24/03/2015
@@ -96,19 +101,73 @@ Constatar informação e todos os pontos pendentes.
 
 @author: Francisco Maria Calisto
 
-Falei via telemóvel com o Pedro Paula e com o Pai do João George, sendo que amobos me enviaram os E-Mails co
+Falei via telemóvel com o Pedro Paula e com o Pai do João George, sendo que amobos me enviaram os E-Mails com
 a informação necessária ao mapeaento e compreendão de uma solução viável.
 
-Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do projecto, chamada que durou 21 minutos.
+Tive a primeira Reunião com o meu colega João Miranda sobre as abordagens do projecto, chamada que durou
+21 minutos.
 
 ### 25/03/2015
 
-(COLOCAR AQUI INFO DAS REUNIÕES E APAGAR ESTE TEXTO)
+@author: Francisco Maria Calisto
+
+
+Estive na Minitel presencialmente junto ao Pateo da Bagatela onde me reuni às 14:25, que durou até às 15:57,
+com o Pai do João George e os colabradores da empresa Rui Martinha (Departamento de TI)
+e Pedro Paula (Departamento de Sistemas).
+
+Inicialmente falamos de toda a envolvente do projecto e do problema/solução.
+
+Ficou estipulado de que a primeira estimativa de horas estava completamente errada visto já ter excedido esse
+tempo neste mesmo dia, avisando assim que uma nova estimativa bateria nas 8h/10h mas que iria ser melhor
+analisada toda esta situação.
+
+#### Parte 1
+
+O problema base é a necessidade de desenvolver e integrar a plataforma TPA Virtual da Caixa Geral de Depósitos no
+web-site da Minitel para que os clientes possam de uma forma alternativa pagar assim via ***Multibanco**** ou
+via ***VISA*** e desta forma agilizar o processo de compra e encomenda.
+
+É por isso vital Analisar no Código onde é feito e de como é feito o pagamento no site, apurando assim onde se
+irá integrar o serviço.
+
+No dia de ontem foi-me passado através de E-Mail os ficheiros enviados para a Minitel pela CGD onde temos as
+seguintes linguagens de programação à escolha:
+
+ - HTML + Javascript;
+ - ASPX;
+ - JSP;
+ - PHP;
+
+No nosso caso muito provavelmente iremos optar pela linguagem ASPX pois é a linguagem nativa do site.
+
+#### Parte 2
+
+Falamos da possibilidade em implementar um segundo projecto e integra-lo também no site da Minitel, um
+Configurador de Memórias que consiste em o Cliente acede o site e na secção das Memórias vais descrevendo
+as caracteristicas do seu PC ou Laptop, Modelo, Ano de Produção, etc... Após isto o sistema devolve um
+conjunto de memórias compativeis com a máquina do Cliente.
+
+#### Parte 3
+
+Por ultimo foi aberta a proposta por parte da Minitel em desenvolver um novo site da sua recente aquisição
+a empresa Exabyte, site esse que é especialista em memórias mas tem uma Interface web muito fraca.
+
+A ideia aqui é criar um site User Friendly e com uma boa Interface onde o cliente pode aceder e pode
+selecionar todas as caracteristicas que deseja numa memória, assim que uma dada fase de selecção das
+caracteristicas chega a um certo ponto que abre um chat onde operadoras da marca irão ajudar o Cliente
+a comprender e aconselhar a sua compra.
+
+Numa versão inicial ```(v1.0)``` será feito e integrado primitivamente na plataforma da ***Prestashop*** e mais
+tarde numa segunda versão ```(v2.0)``` será então aprimorado a parte da Interface se assim for necessário assim
+como incorporar o sistema PHC no mesmo.
 
 
 
 
 ## Glossário de Termos
+
+CGD - Caixa Geral de Depósitos
 
 MVTI - Minitel Virtual TPA Implementation
 
