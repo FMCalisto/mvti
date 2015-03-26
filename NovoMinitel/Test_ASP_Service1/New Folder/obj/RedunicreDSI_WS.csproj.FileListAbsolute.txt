@@ -1,0 +1,4 @@
+C:\Documents and Settings\sonia.tenreiro\Desktop\OLD\SD\SD\RedunicreDSI_WS\Source\NET\bin\OutSystems.NssRedunicreDSI_WS.dll
+C:\Documents and Settings\sonia.tenreiro\Desktop\OLD\SD\SD\RedunicreDSI_WS\Source\NET\bin\OutSystems.NssRedunicreDSI_WS.xml
+C:\Documents and Settings\sonia.tenreiro\Desktop\OLD\SD\SD\RedunicreDSI_WS\Source\NET\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sonia.tenreiro\Desktop\OLD\SD\SD\RedunicreDSI_WS\Source\NET\obj\Release\OutSystems.NssRedunicreDSI_WS.dll

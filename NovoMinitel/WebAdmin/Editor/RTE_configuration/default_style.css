@@ -1,0 +1,98 @@
+.RTEtextarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+.smText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.smLink  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.smLink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.smLink:visited  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.smLink:visited:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #666666;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: square;
+}
+
+hr {
+	height: 0px; 
+	border: solid #D1D7DC 0px; 
+	border-top-width: 1px;
+}
+
+.WebWizRTEbutton {
+	 border: #E6E7F2 1px solid;
+}

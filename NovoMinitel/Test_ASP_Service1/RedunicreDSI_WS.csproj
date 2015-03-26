@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F11986A4-0AB5-4D11-80C2-EFB1F6803BDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OutSystems.NssRedunicreDSI_WS</RootNamespace>
+    <AssemblyName>OutSystems.NssRedunicreDSI_WS</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>OutSystems.NssRedunicreDSI_WS.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <NoWarn>1591;1587</NoWarn>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>OutSystems.NssRedunicreDSI_WS.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <NoWarn>1591;1587</NoWarn>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="GotDotNet.ApplicationBlocks.Data.dll">
+      <Name>GotDotNet.ApplicationBlocks.Data.dll</Name>
+      <HintPath>bin\GotDotNet.ApplicationBlocks.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OutSystems.RuntimeCommon">
+      <Name>OutSystems.RuntimeCommon</Name>
+      <HintPath>bin\OutSystems.RuntimeCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OutSystems.HubEdition.RuntimePlatform">
+      <Name>OutSystems.HubEdition.RuntimePlatform</Name>
+      <HintPath>bin\OutSystems.HubEdition.RuntimePlatform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OutSystems.HubEdition.SMS">
+      <Name>OutSystems.HubEdition.SMS</Name>
+      <HintPath>bin\OutSystems.HubEdition.SMS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Content Include="\Bin\GlobalInfo.dll">
+      <SubType>Component</SubType>
+    </Content>
+    <Reference Include="GlobalInfo.dll">
+      <Name>Bin\GlobalInfo.dll</Name>
+      <HintPath>Bin\GlobalInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RedunicreDSI_WS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structures.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Records.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RecordLists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="RedunicreDSI_WS.csproj">
+      <SubType>Component</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,43 @@
+XCONTACTO  //  XEMPRESA
+
+Foi inserido na nossa base de dados a XTEMPO um documento de "XDOCUMENTO"
+
+*****************************************************************
+
+Número da Factura : XFACTURA
+Data da Factura : XFDATA
+
+Referência : XREF
+
+Número de Serie : XSERIE
+
+Designação : XDESIGN
+
+Marca : XMARCA
+
+Modelo : XMODELO
+
+Motivo da devolução : XMOTIVO
+
+Sintoma do equipamento : XSINTOMA
+
+Contacto para obter mais informacao : YCONTACTO
+
+XNOTA
+
+*****************************************************************
+
+Qualquer questão, contacte o seu comercial [ XCOMERCIAL ] pelo telefone [ XTELEFONE ]
+ou pelo email [ XEMAIL ]
+
+Altere regularmente a password !
+
+*****************************************************************
+Esta mensagem foi-lhe enviada por um sistema automático. 
+
+Qualquer duvida acerca do conteúdo da mesma, contacte-nos. 
+Minitel - Sociedade de Fomento de Aplicações Informáticas, L.da. 
+Travessa Légua da Póvoa, 1A - 1250-136 Lisboa
+Tel: +351 21 381 09 00 - Fax: +351 21 385 05 44
+E-mail: info@minitel.pt
+*****************************************************************

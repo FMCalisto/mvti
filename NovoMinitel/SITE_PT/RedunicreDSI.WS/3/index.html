@@ -1,0 +1,57 @@
+<html>
+<head>
+<script type="text/javascript" src="scripts/prototype.js"></script>
+<script type="text/javascript" src="scripts/ws.js"></script>
+<script type="text/javascript">
+function sayHello(name, container) {
+  var call = new WS.Call('/AjaxWS/services/HelloWorld'); 
+  var nsuri = 'http://example';
+  var qn_op = new WS.QName('sayHello',nsuri);
+  var qn_op_resp = new WS.QName('sayHelloResponse',nsuri);  
+  call.invoke_rpc(
+    qn_op,
+    new Array(
+      {name:'name',value:name}
+    ),null,
+    function(call,envelope) {
+      var ret = 
+        envelope.get_body().get_all_children()[0].get_all_children()[0].get_value();
+      container.innerHTML = ret;
+      $('soap').innerHTML = arguments[2].escapeHTML();
+    }
+  );
+}
+</script>
+<style>
+body {
+  font-family: verdana;
+}
+#container {
+  margin: 10pt;
+  border: 1pt solid black;
+  padding: 2pt;
+}
+#result {
+  padding: 5pt;
+  background-color: #eeeeee;
+}
+#soap {
+  padding: 5pt;
+  background-color: #eeeeee;
+  font-size: 10pt;
+}
+</style>
+</head>
+<body>
+<input name="name" id="name" />
+<input value="Invoke the Web Service" 
+       type="button" 
+       onclick="sayHello($('name').value,$('result'))" />
+<div id="container">Result:
+<div id="result">
+</div>
+<div id="soap">
+</div>
+</div>
+</body>
+</html>

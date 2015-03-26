@@ -1,0 +1,99 @@
+/*header*/
+
+div#header p, div#header h1, div#header ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#logo a {
+	margin: 3px 0 0 20px;
+	display: block;
+}
+
+div#logo h1 a span, div#logo p {
+	display: none;
+}
+
+div#header {
+	height: 80px;
+	border-bottom: #eeeeee 8px solid;
+	background: #FFF;
+}
+
+div#header-inside {
+	font-family: Lucida Grande, Arial, Helvetica;
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+	background: url(../img/header_bg.gif) repeat-x;
+}
+
+div#logo h1 a {
+	background: url(../img/payline.bmp) no-repeat;
+	height: 47px;
+	width: 136px;
+	float: left;
+}
+ul#menu {
+	clear: both;
+	float: right;
+	list-style: none;
+	position: relative;
+	top: -14px;
+	right: 50px;
+}
+
+ul#menu li {
+	float: left;
+	margin-left: 5px;
+	line-height: 1.4;
+}
+
+ul#menu li a {
+	color: #fff;
+	text-shadow: 2px 2px 1px #2a2a2f;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	width: 85px;
+	height: 15px;
+	padding: 5px 0;
+	display: block;
+	background-image: url(../img/tab.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	font-size: 11px;
+}
+
+ul#menu li a:hover,
+ul#menu li a:active {
+	background-position: top left;
+}
+
+ul#menu li a.selected,
+ul#menu li a.on {
+	background-position: bottom left;
+}
+
+/*footer*/
+
+body #footer {
+	background: #fff;
+	border-top: 8px solid #eeeeee;
+	font-size: 9px;
+	color: #595965;
+	padding: 15px 0;
+	height: 1%; /*crazy ie7...*/
+	text-align: center;
+}
+
+#footer a.copy {
+	display: block;
+	background: url(../img/monext.bmp) no-repeat top right;
+	height: 35px;
+	width: 79px;
+	margin: 0 auto;
+}
+#footer a.copy:hover {
+	background-position: bottom right;
+}

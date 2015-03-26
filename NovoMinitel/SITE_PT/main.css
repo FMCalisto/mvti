@@ -1,0 +1,282 @@
+/* CSS Document */
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+        margin:0;
+        padding:0;
+        background-color: #000;
+        height:100%;
+}
+
+#flash {
+	margin:auto;
+	background-color:#000000;
+	width:100%;
+	height:100%;
+	z-index:1;
+}
+
+#wrapper {
+	background-color:#FFFFFF;
+	border:1px solid #ffffff;
+	margin:auto;
+	width:960px;
+	height:auto;
+}
+
+
+
+.wrapper {
+	margin:auto;
+	width:962px;
+	height:auto;
+}
+
+.wrapper h1 {
+	font-size:16px;
+	color:#efefef;
+	margin:0;
+	padding:4px;
+}
+
+
+h2 {
+	font-size:14px;
+	color:#333333;
+	margin:0;
+	padding:4px 0 4px 0;
+}
+
+.wrapper ul#nav{
+	border:1px solid #ffffff;
+	background-color:#333333;
+	width:100%;
+	height:34px;
+}
+
+#menue {
+	padding-bottom:10px;
+}
+
+#content {
+	width:100%;
+	height:auto;
+	padding:20px;
+}
+
+#output {
+	width:960px;
+	height:auto;
+	margin:40px auto 0 auto;
+	background-color:#CCCCCC;
+	border:1px solid #cc0000;
+	padding:20px;
+}
+
+.clear {
+	clear:both;
+}
+
+.img_right {
+	float:right;
+}
+
+#wrapper table {
+	border:1px solid #cccccc;
+}
+
+#wrapper table th {
+	text-align:left;
+	padding:5px;
+	background-color:#cecece;
+}
+
+#wrapper table tr.highlight {
+	background-color:#b5dff8;
+}
+
+#wrapper table td {
+	text-align:left;
+	padding:5px;
+
+}
+
+span.desc {
+	font-size:10px;
+}
+
+
+/* sort table */
+
+.pager {
+	float:left;
+	margin-bottom:2px;
+}
+
+.pager img {
+	vertical-align:middle;
+}
+
+.pager input {
+	width:60px;
+	text-align:center;
+	font-size:11px;
+}
+
+.pager select {
+	margin-left:20px;
+	font-size:11px;
+}
+
+#tsort tr.odd td{
+	background-color:#b5dff8;
+}
+
+#tsort tr.even td {
+	background-color:#ffffff;
+}
+#tsort tr td:hover{
+	background-color:#efefef;
+	cursor:pointer;
+}
+
+#tsort th.header {
+    background-image: url(/images/bg.gif);
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+
+#tsort th.headerSortUp {
+    background-image: url(/images/asc.gif);
+    background-color: #B5DFF8;
+}
+
+#tsort th.headerSortDown {
+    background-image: url(/images/desc.gif);
+    background-color: #B5DFF8;
+}
+
+
+
+#tsort_dl tr.odd td{
+	background-color:#b5dff8;
+}
+
+#tsort_dl tr.even td {
+	background-color:#ffffff;
+}
+#tsort_dl tr td:hover{
+	background-color:#efefef;
+	cursor:pointer;
+}
+
+#tsort_dl th.header {
+    background-image: url(/images/bg.gif);
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+
+#tsort_dl th.headerSortUp {
+    background-image: url(/images/asc.gif);
+    background-color: #B5DFF8;
+}
+
+#tsort_dl th.headerSortDown {
+    background-image: url(/images/desc.gif);
+    background-color: #B5DFF8;
+}
+
+
+#tsort_c tr.odd td{
+	background-color:#b5dff8;
+}
+
+#tsort_c tr.even td {
+	background-color:#ffffff;
+}
+#tsort_c tr td:hover{
+	background-color:#efefef;
+	cursor:pointer;
+}
+
+#tsort_c th.header {
+    background-image: url(/images/bg.gif);
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+
+#tsort_c th.headerSortUp {
+    background-image: url(/images/asc.gif);
+    background-color: #B5DFF8;
+}
+
+#tsort_c th.headerSortDown {
+    background-image: url(/images/desc.gif);
+    background-color: #B5DFF8;
+}
+
+
+#tsort_o tr.odd td{
+	background-color:#b5dff8;
+}
+
+#tsort_o tr.even td {
+	background-color:#ffffff;
+}
+#tsort_o tr td:hover{
+	background-color:#efefef;
+	cursor:pointer;
+}
+
+#tsort_o th.header {
+    background-image: url(/images/bg.gif);
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+
+#tsort_o th.headerSortUp {
+    background-image: url(/images/asc.gif);
+    background-color: #B5DFF8;
+}
+
+#tsort_o th.headerSortDown {
+    background-image: url(/images/desc.gif);
+    background-color: #B5DFF8;
+}
+
+div.xls {
+	position:absolute;
+	top:105px;
+	width:50px;
+	height:62px;
+	left:50%;
+	margin-left:430px;
+	background-image:url(/images/xls_logo.gif);
+}
+
+div.xls  a{
+	display:block;
+	text-indent:-9999px;
+	height:62px;
+	width:50px;
+}

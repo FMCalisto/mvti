@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Ip2country</title>
+    <SCRIPT language="JavaScript">
+        var callID = 0;
+        function getWSDL()
+        {
+            myWebService.useService(
+                "https://servicos.redunicre.pt/servicosru/estabelecimentos.asmx?op=ListaEstabelecimentos",
+                "IP2Country");
+        }
+        function getResult()
+        {
+            country.innerText = event.result.value;
+        }
+        function Lookup()
+        {
+            callID = myWebService.IP2Country.callService("getCountry", txtIP.value);
+        }
+    </SCRIPT>
+</head>
+<body onLoad="getXML()">
+    <h1>Consuming a webservice by HTML Page</h1>
+    <div id="myWebService" style="behavior:url(webservice.htc)"
+        onresult="getResult()"></div>
+    IPnumber: <input id="txtIP" NAME="userName">
+        IPnumber: <input id="txtIP" NAME="passWd">
+    <input Type="Button" Value="getCountry!" OnClick="Lookup()" ID="Button1" NAME="Button1">
+    Country:<span id="country"> </span>
+</body>
+</html>

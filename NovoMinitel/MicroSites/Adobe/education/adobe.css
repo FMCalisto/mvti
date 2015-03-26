@@ -1,0 +1,210 @@
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.inactive {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+}
+a.bt:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+a.bt:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+	text-decoration: none;
+}
+a.bt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.bt:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-color: #b3b3b3;
+	background-position: center;
+	text-align: right;
+	width: 800px;
+}
+.title_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	text-align: left;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+}
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #999999;
+	text-align: left;
+	font-weight: normal;
+}
+.PVP {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+
+
+.border {
+	border: thin solid #999999;
+}
+.border_left {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #B3B3B3;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #CCCCCC;
+	padding: 0px;
+	background-color: #333333;
+}

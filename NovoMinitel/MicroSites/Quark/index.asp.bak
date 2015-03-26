@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(Images/fundo.gif);
+}
+a:link {
+	color: #0099CC;
+	text-decoration: none;
+}
+body,td,th {
+	font-family: trebuchet MS;
+	font-size: 11px;
+	color: #666666;
+}
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FF9900;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body>
+<div align="center">
+  <table width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <!--DWLayoutTable-->
+    <tr>
+      <td height="80" colspan="5" valign="top"><img src="Images/header.jpg" width="800" height="80" /></td>
+    </tr>
+    <tr>
+      <td width="10" height="45">&nbsp;</td>
+      <td width="250">&nbsp;</td>
+      <td width="49">&nbsp;</td>
+      <td width="480">&nbsp;</td>
+      <td width="11">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="100">&nbsp;</td>
+      <td valign="top"><img src="Images/quark_premium.gif" width="250" height="100" /></td>
+      <td>&nbsp;</td>
+      <td align="left" valign="top"><p><span class="style1">Parceiros Premium Quark</span><br />
+        Os Parceiros Premium Quark, s&atilde;o revendedores  de produtos Quark, que possuem experi&ecirc;ncia para lhe responderem a quest&otilde;es t&eacute;cnicas  relativas ao produto.Ao adquirir um produto Quark a um destes  revendedores, tem a garantia de uma maior rapidez na recep&ccedil;&atilde;o do mesmo, porque  possuem produtos para entrega imediata.Contacte j&aacute; um Parceiros Premium Quark e  comece hoje mesmo a trabalhar com o novo Quark 7</p>      </td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="24">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="497">&nbsp;</td>
+      <td colspan="3" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td width="779" height="35">&nbsp;</td>
+          </tr>
+        <tr>
+          <td height="434" valign="top"><table cellspacing="0" cellpadding="0">
+            <!--DWLayoutTable-->
+            <col width="194" />
+            <col width="432" />
+            <col width="98" />
+            <col width="215" />
+            <col width="161" />
+            <tr height="17">
+              <td width="110" height="17" align="center" valign="middle"><p><span class="style1">Empresa&nbsp;</span>&nbsp;<br />
+                <br />
+                </p>                </td>
+                  <td width="219" align="center" valign="top"><span class="style1">Morada&nbsp;</span><br />
+                  <br /></td>
+                  <td width="61" align="center" class="style1">Telefone</td>
+                  <td width="174" align="center" class="style1">Mail&nbsp;</td>
+                  <td width="137" align="center" class="style1">Site&nbsp;</td>
+                  <td width="62"></td>
+                </tr>
+            <tr height="17">
+              <td height="17" align="left" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>Apple    Center Lisboa&nbsp;</strong></div></td>
+                  <td align="center" valign="top" bgcolor="#F0F0F0">Edif&iacute;cio Amoreiras Square <br />
+                  | Rua Joshua Benoliel , 1 E e F</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0">213 849 4 80</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:info.lisboa@maczoneportugal.com">info.lisboa@maczoneportugal.com&nbsp;</a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.mzp.pt/">www.applecenter.com.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle"><div align="center"><strong>Apple    Center Porto&nbsp;</strong></div></td>
+                  <td align="center" valign="top">Edif&iacute;cio Oceanus 
+                      | Av. da Boavista, n&ordm; 3251 <br />
+                  | 4100-138 Porto</td>
+                  <td align="center" valign="middle">226 165 040</td>
+                  <td align="center" valign="middle"><a href="mailto:info.porto@maczoneportugal.com">info.porto@maczoneportugal.com&nbsp;</a></td>
+                  <td align="center" valign="middle"><a href="http://www.mzp.pt/">www.applecenter.com.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>Sector Zero</strong></div></td>
+                  <td align="center" valign="top" bgcolor="#F0F0F0">Alto dos Lombos | Rua Nova Lote 19 - 7&ordm; Esq <br />
+                  | 2775-674    Carcavelos</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0">210 300 300</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:vendas@sectorzero.pt">vendas@sectorzero.pt</a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.sectorzero.pt/">www.sectorzero.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle"><div align="center"><strong>Autogr&aacute;fica</strong></div></td>
+                  <td align="center" valign="top">Largo    da Lagoa, 7 F <br />
+                  | 2795-116 Linda-a-Velha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                  <td align="center" valign="middle">214 141 320</td>
+                  <td align="left" valign="middle"><div align="center"><a href="mailto:carlos.gomes@auto-grafica.pt">carlos.gomes@auto-grafica.pt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div></td>
+                  <td align="center" valign="middle"><a href="http://www.minitel.pt/autografica">www.minitel.pt\autografica</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>MacService</strong></div></td>
+                  <td align="center" bgcolor="#F0F0F0">Rua Lu&iacute;s Ant&oacute;nio Correia, 70&nbsp;    <br />
+                  |&nbsp; 4710-184 Braga</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0">253 678 646</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:macservice@macservice.pt">macservice@macservice.pt</a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.macservice.pt/">www.macservice.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle"><div align="center"><strong>Iberdigital</strong></div></td>
+                  <td align="center">Av. do Col&eacute;gio Militar, 28 - 9&ordm; Esq <br />
+                  |1500-185 Lisboa</td>
+                  <td align="center" valign="middle">217 156 510</td>
+                  <td align="center" valign="middle"><a href="mailto:geral@iberdigital.pt">geral@iberdigital.pt</a></td>
+                  <td align="center" valign="middle"><a href="http://www.iberdigital.pt/" title="http://www.iberdigital.pt">www.iberdigital.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="32" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>Rhpro</strong></div></td>
+                  <td valign="top" bgcolor="#F0F0F0"><div align="center">Pt. Irene de Castro, 47, Loja 1 <br />
+                  | 4350-199   Porto</div></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0">225 089 755 </td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a title="blocked::mailto:comercial@rhpro.pt mailto:comercial@rhpro.pt" href="mailto:comercial@rhpro.pt">comercial@rhpro.pt</a></td>
+                  <td align="left" valign="middle" bgcolor="#F0F0F0"><div align="center"><a href="http://www.rhpro.pt">www.rhpro.pt</a></div></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="32" valign="middle"><div align="center"><strong>MultipleZones</strong></div></td>
+                  <td valign="top"><div align="center">Travessa L&eacute;gua da P&oacute;voa, 1A <br />
+                  |1250-136 Lisboa</div></td>
+                  <td valign="middle">213 81 09 90</td>
+                  <td valign="middle"><div align="center"><a href="mailto:hugo.francois@mzp.pt">hugo.francois@mzp.pt</a></div></td>
+                  <td align="center" valign="top"><a href="http://www.mzp.pt/">www.mzp.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="17"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr>
+              <td height="40" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>Resolu&ccedil;&atilde;o Grafica</strong></div></td>
+              <td align="center" valign="middle" bgcolor="#F0F0F0">Cal&ccedil;ada da Pampulha, 35<br />
+                |1200-751 LISBOA</td>
+              <td valign="middle" bgcolor="#F0F0F0">213 959 076</td>
+              <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:resolucao.grafica@oniduo.pt">resolucao.grafica@oniduo.pt<strong>&nbsp;</strong></a></td>
+              <td valign="top" bgcolor="#F0F0F0"><!--DWLayoutEmptyCell-->&nbsp;</td>
+              <td></td>
+            </tr>
+            
+            
+            
+          </table></td>
+          </tr>
+        <tr>
+          <td height="28">&nbsp;</td>
+        </tr>
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </table></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="27">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+      <td height="30" colspan="5" valign="top"><img src="Images/barra_fundo.jpg" width="800" height="29" /></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>

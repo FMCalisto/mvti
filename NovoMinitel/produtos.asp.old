@@ -1,0 +1,10 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<!--#INCLUDE file="includes/inc_variaveis_globais.asp"-->
+<%
+ATxt=txt.abstxt(request.QueryString("MARCA"))
+If ATxt<>"" Then
+	ATxt="SELECT [FabricanteID]  FROM [WebSiteMINITEL].[dbo].[WN_Fabricante] where Fabricante like '%" & ATxt & "%'"
+	ATxt=Trim(db.Query(cstr(ATxt))("FabricanteID"))
+	response.Redirect("/?FABRICANTEID="& ATxt &"&OP=ListaProdutos")
+End if
+%>

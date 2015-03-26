@@ -1,0 +1,122 @@
+body 	{ background-color : #FFFFFF; }
+a:link {color: #666666; text-decoration:none}     /* unvisited link */
+a:visited {color: #666666; text-decoration:none}  /* visited link */
+a:hover {color: #666666 ; text-decoration:underline}   /* mouse over link */
+a:active {color: #FF0000}   /* selected link */
+
+
+.Texto_branco {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #FFFFFF;
+	padding-left: 5px;
+}
+a.Texto_branco:link {color: #FFFFFF; text-decoration:none}     /* unvisited link */
+a.Texto_branco:visited {color: #FFFFFF; text-decoration:none}  /* visited link */
+a.Texto_branco:hover {color: #FFFFFF; text-decoration:underline}   /* mouse over link */
+a.Texto_branco:active {color: #FFFFFF}   /* selected link */
+
+
+
+
+.Texto {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #666666;
+}
+a.Texto:link {color: #666666; text-decoration:none}     /* unvisited link */
+a.Texto:visited {color: #666666; text-decoration:none}  /* visited link */
+a.Texto:hover {color: #666666 ; text-decoration:underline}   /* mouse over link */
+a.Texto:active {
+	color: #666666
+}   /* selected link */
+
+.Texto_azul {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #006699;
+}
+a.Texto_azul:link {color: #006699; text-decoration:none}     /* unvisited link */
+.xmas {
+	background-repeat: no-repeat;
+	background-position: center top;
+		padding-left: 0px;
+	background-image: url(../images/xmas_minitel.jpg);
+}
+a.Texto_azul:visited {color: #006699; text-decoration:none}  /* visited link */
+a.Texto_azul:hover {color: #006699; text-decoration:underline}   /* mouse over link */
+a.Texto_azul:active {color: #006699}   /* selected link */
+
+
+.Texto_castanho {
+
+	font-family: "Arial";
+	font-size: 11px;
+	color: #CC9900;
+}
+.Titulo_branco {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.Titulo_laranja {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #CC0000;
+	font-weight: bold;
+}
+a.Titulo_laranja:link {color: #CC0000; text-decoration:none}     /* unvisited link */
+a.Titulo_laranja:visited {color: #CC0000; text-decoration:none}  /* visited link */
+a.Titulo_laranja:hover {color: #CC0000; text-decoration:underline}   /* mouse over link */
+a.Titulo_laranja:active {color: #CC0000}   /* selected link */
+
+
+
+
+
+
+
+.Cat1 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.Cat2 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #666666;
+}
+.Cat3 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #666666;
+}
+.Texto_Top1 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #2F6681;
+}
+a.Texto_Top1:link {color: #2F6681; text-decoration:none}     /* unvisited link */
+a.Texto_Top1:visited {color: #2F6681; text-decoration:none}  /* visited link */
+a.Texto_Top1:hover {color: #2F6681; text-decoration:underline}   /* mouse over link */
+a.Texto_Top1:active {color: #2F6681}   /* selected link */
+
+
+.Texto_Top2 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #0033CC;
+}
+a.Texto_Top2:link {color: #0033CC; text-decoration:none}     /* unvisited link */
+a.Texto_Top2:visited {color: #0033CC; text-decoration:none}  /* visited link */
+a.Texto_Top2:hover {color: #293D6B; text-decoration:underline}   /* mouse over link */
+a.Texto_Top2:active {color: #293D6B}   /* selected link */
+
+
+
+.Texto_Top3 {
+	font-family: "Arial";
+	font-size: 11px;
+	color: #FF6600;
+}

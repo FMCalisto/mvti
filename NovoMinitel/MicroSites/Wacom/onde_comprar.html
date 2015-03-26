@@ -1,0 +1,231 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<!--#INCLUDE VIRTUAL="/includes/OpenCon.asp"-->
+<!--#INCLUDE VIRTUAL="/includes/FuncoesGenericas.asp"-->
+<%Call GravaEvento("WacomRui")%>
+<%
+If Request.QueryString("Link")<>"" Then
+	ConnObj.execute ("web.SPLogWacomPartner '" & Request.QueryString("Link") & "'" )
+End if
+%>
+<!--#INCLUDE VIRTUAL="/includes/CloseCon.asp"-->
+<%If instr(Request.QueryString("Link"),"@")=0 Then%>
+<script language="JavaScript" type="text/JavaScript">
+  myWin=open("http://<%=Request.QueryString("Link")%>","","");
+</script>
+<%end if%>
+<%If instr(Request.QueryString("Link"),"@")>0 Then%>
+<script language="JavaScript" type="text/JavaScript">
+  myWin=open("mailto:<%=Request.QueryString("Link")%>","","");
+</script>
+<%end if%>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Onde comprar Wacom</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(../Quark/Images/fundo.gif);
+}
+a:link {
+	color: #0099CC;
+	text-decoration: none;
+}
+body,td,th {
+	font-family: trebuchet MS;
+	font-size: 11px;
+	color: #666666;
+}
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FF9900;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body>
+<div align="center">
+  <table width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <!--DWLayoutTable-->
+    <tr>
+      <td height="80" colspan="3" valign="top"><img src="Images/header_new.jpg" width="800" height="100" /></td>
+    </tr>
+    <tr>
+      <td width="10" height="45">&nbsp;</td>
+      <td width="779">&nbsp;</td>
+      <td width="11">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="112">&nbsp;</td>
+      <td align="left" valign="top"><p><span class="style1">Parceiros Premium Wacom </span><br />
+        A Minitel desenvolveu uma rede de revendedores autorizados que lhe oferecem a   garantia de poder testar pessoalmente uma Wacom. Ao visitar um destes   revendedores autorizados, possui a garantia que disp&otilde;e da linha de produtos   Wacom em stock e preparados para serem testados imediatamente. <br />
+        Esta   categoria de revendedores, possuem conhecimentos t&eacute;cnicos e pr&aacute;ticos que lhe   permitem esclarecer as suas d&uacute;vidas imediatamente.<br />
+      </p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="402"></td>
+      <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td width="779" height="4"></td>
+          </tr>
+        <tr>
+          <td height="390" valign="top"><table cellspacing="0" cellpadding="0">
+            <!--DWLayoutTable-->
+            <col width="194" />
+            <col width="432" />
+            <col width="98" />
+            <col width="215" />
+            <col width="161" />
+            <tr height="17">
+              <td width="110" height="17" align="center" valign="middle"><p><span class="style1">Empresa&nbsp;</span>&nbsp;<br />
+                <br />
+                </p>                </td>
+                  <td width="217" align="center" valign="top"><span class="style1">Morada&nbsp;</span><br />
+                  <br /></td>
+                  <td width="70" align="center" class="style1">Telefone</td>
+                  <td width="171" align="center" class="style1">Mail&nbsp;</td>
+                  <td width="125" align="center" class="style1">Site&nbsp;</td>
+                  <td width="81"></td>
+                </tr>
+            <tr height="17">
+              <td height="17" align="left" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>MacZone  Lisboa&nbsp;</strong></div></td>
+                  <td align="center" valign="top" bgcolor="#F0F0F0">Edif&iacute;cio Amoreiras Square <br />
+                  | Rua Joshua Benoliel , 1 E e F</td>
+                  <td width="70" align="center" valign="middle" bgcolor="#F0F0F0">213 849 4 80</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:info.lisboa@maczoneportugal.com">info.lisboa@maczoneportugal.com&nbsp;</a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.mzp.pt/">www.mzp.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17" valign="middle"><div align="center"><strong>MacZone   Porto&nbsp;</strong></div></td>
+                  <td align="center" valign="middle">Edif&iacute;cio Oceanus 
+                      | Av. da Boavista, n&ordm; 3251 <br />
+                  | 4100-138 Porto</td>
+                  <td width="70" align="center" valign="middle">226 165 040</td>
+                  <td align="center" valign="middle"><a href="mailto:info.porto@maczoneportugal.com">info.porto@maczoneportugal.com&nbsp;</a></td>
+                  <td align="center" valign="middle"><a href="http://www.mzp.pt/">www.mzp.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="17"></td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="32" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>MacService</strong></div></td>
+                  <td align="center" valign="top" bgcolor="#F0F0F0">Rua Lu&iacute;s Ant&oacute;nio Correia, 70&nbsp;    <br />
+                  |&nbsp; 4710-184 Braga</td>
+                  <td width="70" align="center" valign="middle" bgcolor="#F0F0F0">253 678 646</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:macservice@macservice.pt">macservice@macservice.pt</a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.macservice.pt/">www.macservice.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="23">&nbsp;</td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="32" valign="middle"><div align="center"><strong>Iberdigital</strong></div></td>
+                  <td align="center" valign="top">Av. do Col&eacute;gio Militar, 28 - 9&ordm; Esq <br />
+                  |1500-185 Lisboa</td>
+                  <td width="70" align="center" valign="middle">217 156 510</td>
+                  <td align="center" valign="middle"><a href="mailto:geral@iberdigital.pt">geral@iberdigital.pt</a></td>
+                  <td align="center" valign="middle"><a href="http://www.iberdigital.pt/" title="http://www.iberdigital.pt">www.iberdigital.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="19">&nbsp;</td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="32" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>MultipleZones</strong></div></td>
+                  <td valign="top" bgcolor="#F0F0F0"><div align="center">Travessa L&eacute;gua da P&oacute;voa, 1A <br />
+                  |1250-136 Lisboa</div></td>
+                  <td width="70" valign="middle" bgcolor="#F0F0F0">213 81 09 90</td>
+                  <td valign="middle" bgcolor="#F0F0F0"><div align="center"><a href="mailto:hugo.francois@mzp.pt">hugo.francois@mzp.pt</a></div></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.mzp.pt/">www.mzp.pt</a></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="27">&nbsp;</td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            <tr height="17">
+              <td height="40" valign="middle" bgcolor="#F0F0F0"><div align="center"><strong>Alenlogica</strong></div></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><p>Rua Pedro Soares,  N&ordm;38&nbsp; <br />
+                      (em frente &agrave; Escola Superior de  Educa&ccedil;&atilde;o) <br />
+                      | 
+                  7800-295 Beja</p></td>
+                  <td width="70" valign="middle" bgcolor="#F0F0F0">284 389 438</td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="mailto:geral@alenlogica.pt">geral@alenlogica.pt </a></td>
+                  <td align="center" valign="middle" bgcolor="#F0F0F0"><a href="http://www.alenlogica.pt/">www.alenlogica.pt</a></td>
+                  <td></td>
+                </tr>
+                            <tr height="17">
+              <td height="27">&nbsp;</td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                tr height="17">
+              <td height="30" align="center" valign="middle"><span lang="pt" xml:lang="pt"><strong>Atelier Inform&aacute;tico</strong>&nbsp;</span></td>
+              <td valign="top"><p align="center"><span lang="pt" xml:lang="pt">Urbaniza&ccedil;&atilde;o Encosta do Brejo, Lote   72<br />
+                </span><span lang="pt" xml:lang="pt">8700-274   Olh&atilde;o</span></p>
+                </td>
+              <td width="70" align="center" valign="middle"><span lang="pt" xml:lang="pt">289 722 733</span></td>
+              <td align="center" valign="middle"><span lang="pt" xml:lang="pt"><a href="mailto:info@atelierinformatico.pt">info@atelierinformatico.pt</a></span></td>
+              <td align="center" valign="middle"><a href="http://atelierinformatico.pt/index.html">http://atelierinformatico.pt</a></td>
+              <td></td>
+            </tr>                      
+                            <tr height="17">
+              <td height="27">&nbsp;</td>
+                  <td></td>
+                  <td width="70"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            </table></td>
+          </tr>
+      </table></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td height="30" colspan="3" valign="top"><img src="../Quark/Images/barra_fundo.jpg" width="800" height="29" /></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

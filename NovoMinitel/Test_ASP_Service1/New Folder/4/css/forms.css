@@ -1,0 +1,57 @@
+/* @group Forms */
+form.payline-form {
+	font-size: 11px;
+	padding: 10px 30px;
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	margin-bottom: 10px;
+}
+.payline-form fieldset {
+	margin-bottom: 1em;
+}
+.payline-form .row {
+	clear : both;
+	margin: 0.15em 0.5em;
+	color: #3d4d5b;
+}
+.payline-form hr {
+	clear : both;
+	border: none;
+	border-bottom: 1px dashed #eee;
+}
+.payline-form label {
+	display: inline;
+	float: left;
+	text-align : right;
+	margin-bottom: 0.5em;
+	line-height: 1.5em;
+	width: 150px;
+}
+.payline-form input, .payline-form select, .payline-form textarea {
+	background: #ddd;
+	border: 1px solid #575757;
+	width : 250px;
+	font-size: 1em;
+	margin-left: 35px;
+	padding: auto 0.5em;
+	color: #575757;
+}
+.payline-form input.submit {
+	background: #575757;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-left: 190px;
+	width: auto;
+	padding: 0.15em 0.5em;
+	cursor: pointer;
+}
+.payline-form .help {
+	margin-left: 10px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.debug input, .recurring input {
+	width: auto;
+}
+/* @end */

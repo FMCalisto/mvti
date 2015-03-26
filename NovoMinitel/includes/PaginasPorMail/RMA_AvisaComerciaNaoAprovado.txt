@@ -1,0 +1,36 @@
+XTEMPO
+
+O pedido de "Devolução" NÃO foi aceite pelo Comercial [ XCOMERCIAL ]
+
+Não esquecer de avisar o cliente !!!
+
+RMA : XXNDOCUMENTO
+
+DADOS DA EMPRESA E DO PRODUTO
+
+*****************************************************************
+
+XCONTACTO  //  XEMPRESA
+
+Numero da Factura : XFACTURA
+Data da Factura : XFDATA
+
+Referencia : XREF
+Numero de Serie : XSERIE
+Designacao : XDESIGN
+Marca : XMARCA
+Modelo : XMODELO
+
+Motivo da devolucao : XMOTIVO
+
+Sintoma do equipamento : XSINTOMA
+
+*****************************************************************
+Esta mensagem foi-lhe enviada por um sistema automático. 
+
+Qualquer duvida acerca do conteúdo da mesma, contacte-nos. 
+Minitel - Sociedade de Fomento de Aplicações Informáticas, L.da. 
+Travessa Légua da Póvoa, 1A - 1250-136 Lisboa
+Tel: +351 21 381 09 00 - Fax: +351 21 385 05 44
+E-mail: info@minitel.pt
+*****************************************************************

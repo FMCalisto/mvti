@@ -1,0 +1,3192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OutSystems.NssRedunicreDSI_WS</name>
+    </assembly>
+    <members>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCreate:
+                    Target: Constructor GlobalInfo(): RedunicreDSI.WS.GlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        New_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCreate:
+                    Target: Constructor ClassListFuncs(): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        New_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncCreate:
+                    Target: Constructor ClassFunc(): RedunicreDSI.WS.ClassFunc
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        New_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCreate:
+                    Target: Constructor ClassGlobalInfo(): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        New_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoCreate:
+                    Target: Constructor ClassInfo(): RedunicreDSI.WS.ClassInfo
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        New_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoListFuncs(System.Object,System.String,System.String,System.String,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncs:
+                    Target: Method ListFuncs(string, string, string): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        Return_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssReturn_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoBeginListFuncs(System.Object,System.String,System.String,System.String,System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoBeginListFuncs:
+                    Target: Method BeginListFuncs(string, string, string, System.AsyncCallback, object): System.IAsyncResult
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        callback(Object &lt;- System.AsyncCallback)
+                        asyncState(Object &lt;- object)
+                        Return_IAsyncResult(Object &lt;- System.IAsyncResult): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="sscallback"></param>
+            <param name="ssasyncState"></param>
+            <param name="ssReturn_IAsyncResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoEndListFuncs(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEndListFuncs:
+                    Target: Method EndListFuncs(System.IAsyncResult): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        asyncResult(Object &lt;- System.IAsyncResult)
+                        Return_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssasyncResult"></param>
+            <param name="ssReturn_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoListFuncsAsync(System.Object,System.String,System.String,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncsAsync:
+                    Target: Method ListFuncsAsync(string, string, string)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoListFuncsAsync1(System.Object,System.String,System.String,System.String,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncsAsync1:
+                    Target: Method ListFuncsAsync(string, string, string, object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoExecFunc(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFunc:
+                    Target: Method ExecFunc(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[]): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        Return_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="ssReturn_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoBeginExecFunc(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoBeginExecFunc:
+                    Target: Method BeginExecFunc(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[], System.AsyncCallback, object): System.IAsyncResult
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        callback(Object &lt;- System.AsyncCallback)
+                        asyncState(Object &lt;- object)
+                        Return_IAsyncResult(Object &lt;- System.IAsyncResult): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="sscallback"></param>
+            <param name="ssasyncState"></param>
+            <param name="ssReturn_IAsyncResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoEndExecFunc(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEndExecFunc:
+                    Target: Method EndExecFunc(System.IAsyncResult): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        asyncResult(Object &lt;- System.IAsyncResult)
+                        Return_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssasyncResult"></param>
+            <param name="ssReturn_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoExecFuncAsync(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFuncAsync:
+                    Target: Method ExecFuncAsync(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[])
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoExecFuncAsync1(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFuncAsync1:
+                    Target: Method ExecFuncAsync(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[], object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCancelAsync(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCancelAsync:
+                    Target: Method CancelAsync(object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoDiscover(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoDiscover:
+                    Target: Method Discover()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoAbort(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAbort:
+                    Target: Method Abort()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoDispose(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoDispose:
+                    Target: Method Dispose()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoGetLifetimeService(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetLifetimeService:
+                    Target: Method GetLifetimeService(): object
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Object(Object &lt;- object): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Object"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoInitializeLifetimeService(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoInitializeLifetimeService:
+                    Target: Method InitializeLifetimeService(): object
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Object(Object &lt;- object): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Object"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCreateObjRef(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCreateObjRef:
+                    Target: Method CreateObjRef(System.Type): System.Runtime.Remoting.ObjRef
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        requestedType(Object &lt;- System.Type)
+                        Return_ObjRef(Object &lt;- System.Runtime.Remoting.ObjRef): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssrequestedType"></param>
+            <param name="ssReturn_ObjRef"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoSoapVersionGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSoapVersionGet:
+                    Target: Property SoapVersion: System.Web.Services.Protocols.SoapProtocolVersion
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        SoapVersion(Object &lt;- System.Web.Services.Protocols.SoapProtocolVersion): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSoapVersion"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoSoapVersionSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSoapVersionSet:
+                    Target: Property SoapVersion: System.Web.Services.Protocols.SoapProtocolVersion
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        SoapVersion(Object &lt;- System.Web.Services.Protocols.SoapProtocolVersion): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSoapVersion"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoAllowAutoRedirectGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAllowAutoRedirectGet:
+                    Target: Property AllowAutoRedirect: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        AllowAutoRedirect(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssAllowAutoRedirect"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoAllowAutoRedirectSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAllowAutoRedirectSet:
+                    Target: Property AllowAutoRedirect: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        AllowAutoRedirect(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssAllowAutoRedirect"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCookieContainerGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCookieContainerGet:
+                    Target: Property CookieContainer: System.Net.CookieContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        CookieContainer(Object &lt;- System.Net.CookieContainer): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCookieContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCookieContainerSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCookieContainerSet:
+                    Target: Property CookieContainer: System.Net.CookieContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        CookieContainer(Object &lt;- System.Net.CookieContainer): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCookieContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoClientCertificatesGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoClientCertificatesGet:
+                    Target: Property ClientCertificates: System.Security.Cryptography.X509Certificates.X509CertificateCollection
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ClientCertificates(Object &lt;- System.Security.Cryptography.X509Certificates.X509CertificateCollection): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssClientCertificates"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoEnableDecompressionGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEnableDecompressionGet:
+                    Target: Property EnableDecompression: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        EnableDecompression(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssEnableDecompression"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoEnableDecompressionSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEnableDecompressionSet:
+                    Target: Property EnableDecompression: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        EnableDecompression(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssEnableDecompression"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUserAgentGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUserAgentGet:
+                    Target: Property UserAgent: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UserAgent(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUserAgent"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUserAgentSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUserAgentSet:
+                    Target: Property UserAgent: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UserAgent(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUserAgent"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoProxyGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoProxyGet:
+                    Target: Property Proxy: System.Net.IWebProxy
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Proxy(Object &lt;- System.Net.IWebProxy): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssProxy"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoProxySet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoProxySet:
+                    Target: Property Proxy: System.Net.IWebProxy
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Proxy(Object &lt;- System.Net.IWebProxy): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssProxy"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUnsafeAuthenticatedConnectionSharingGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUnsafeAuthenticatedConnectionSharingGet:
+                    Target: Property UnsafeAuthenticatedConnectionSharing: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UnsafeAuthenticatedConnectionSharing(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUnsafeAuthenticatedConnectionSharing"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUnsafeAuthenticatedConnectionSharingSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUnsafeAuthenticatedConnectionSharingSet:
+                    Target: Property UnsafeAuthenticatedConnectionSharing: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UnsafeAuthenticatedConnectionSharing(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUnsafeAuthenticatedConnectionSharing"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCredentialsGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCredentialsGet:
+                    Target: Property Credentials: System.Net.ICredentials
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Credentials(Object &lt;- System.Net.ICredentials): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoCredentialsSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCredentialsSet:
+                    Target: Property Credentials: System.Net.ICredentials
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Credentials(Object &lt;- System.Net.ICredentials): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUseDefaultCredentialsGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUseDefaultCredentialsGet:
+                    Target: Property UseDefaultCredentials: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UseDefaultCredentials(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUseDefaultCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUseDefaultCredentialsSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUseDefaultCredentialsSet:
+                    Target: Property UseDefaultCredentials: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UseDefaultCredentials(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUseDefaultCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoConnectionGroupNameGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoConnectionGroupNameGet:
+                    Target: Property ConnectionGroupName: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ConnectionGroupName(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssConnectionGroupName"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoConnectionGroupNameSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoConnectionGroupNameSet:
+                    Target: Property ConnectionGroupName: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ConnectionGroupName(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssConnectionGroupName"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoPreAuthenticateGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoPreAuthenticateGet:
+                    Target: Property PreAuthenticate: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        PreAuthenticate(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssPreAuthenticate"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoPreAuthenticateSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoPreAuthenticateSet:
+                    Target: Property PreAuthenticate: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        PreAuthenticate(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssPreAuthenticate"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUrlGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUrlGet:
+                    Target: Property Url: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Url(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUrl"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoUrlSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUrlSet:
+                    Target: Property Url: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Url(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUrl"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoRequestEncodingGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoRequestEncodingGet:
+                    Target: Property RequestEncoding: System.Text.Encoding
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        RequestEncoding(Object &lt;- System.Text.Encoding): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssRequestEncoding"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoRequestEncodingSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoRequestEncodingSet:
+                    Target: Property RequestEncoding: System.Text.Encoding
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        RequestEncoding(Object &lt;- System.Text.Encoding): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssRequestEncoding"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoTimeoutGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoTimeoutGet:
+                    Target: Property Timeout: int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Timeout(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssTimeout"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoTimeoutSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoTimeoutSet:
+                    Target: Property Timeout: int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Timeout(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssTimeout"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoSiteGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSiteGet:
+                    Target: Property Site: System.ComponentModel.ISite
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Site(Object &lt;- System.ComponentModel.ISite): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSite"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoSiteSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSiteSet:
+                    Target: Property Site: System.ComponentModel.ISite
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Site(Object &lt;- System.ComponentModel.ISite): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSite"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssGlobalInfoContainerGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoContainerGet:
+                    Target: Property Container: System.ComponentModel.IContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Container(Object &lt;- System.ComponentModel.IContainer): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsFuncGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsFuncGet:
+                    Target: Property Func: RedunicreDSI.WS.ClassFunc[]
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Func(Object &lt;- RedunicreDSI.WS.ClassFunc[]): Value of the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsFuncSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsFuncSet:
+                    Target: Property Func: RedunicreDSI.WS.ClassFunc[]
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Func(Object &lt;- RedunicreDSI.WS.ClassFunc[]): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsCodRetGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCodRetGet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassListFuncsCodRetSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCodRetSet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncEstabelecimentoGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEstabelecimentoGet:
+                    Target: Property Estabelecimento: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Estabelecimento(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssEstabelecimento"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncEstabelecimentoSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEstabelecimentoSet:
+                    Target: Property Estabelecimento: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Estabelecimento(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssEstabelecimento"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncFuncionalidade_IdGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncFuncionalidade_IdGet:
+                    Target: Property Funcionalidade_Id: int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Funcionalidade_Id(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssFuncionalidade_Id"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncFuncionalidade_IdSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncFuncionalidade_IdSet:
+                    Target: Property Funcionalidade_Id: int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Funcionalidade_Id(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssFuncionalidade_Id"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncDescricaoGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncDescricaoGet:
+                    Target: Property Descricao: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Descricao(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssDescricao"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassFuncDescricaoSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncDescricaoSet:
+                    Target: Property Descricao: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Descricao(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssDescricao"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoInfoGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoInfoGet:
+                    Target: Property info: RedunicreDSI.WS.ClassInfo[]
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[]): Value of the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoInfoSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoInfoSet:
+                    Target: Property info: RedunicreDSI.WS.ClassInfo[]
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[]): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoCodRetGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCodRetGet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassGlobalInfoCodRetSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCodRetSet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoKeyGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoKeyGet:
+                    Target: Property key: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        key(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="sskey"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoKeySet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoKeySet:
+                    Target: Property key: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        key(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="sskey"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoValueGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoValueGet:
+                    Target: Property value: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        value(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssvalue"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssClassInfoValueSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoValueSet:
+                    Target: Property value: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        value(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssvalue"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsResultGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsResultGet:
+                    Target: Property Result: RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Result(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsCancelledGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsCancelledGet:
+                    Target: Property Cancelled: bool
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Cancelled(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssCancelled"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsErrorGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsErrorGet:
+                    Target: Property Error: System.Exception
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Error(Object &lt;- System.Exception): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssError"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssListFuncsCompletedEventArgsUserStateGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsUserStateGet:
+                    Target: Property UserState: object
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        UserState(Object &lt;- object): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssUserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsResultGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsResultGet:
+                    Target: Property Result: RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Result(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsCancelledGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsCancelledGet:
+                    Target: Property Cancelled: bool
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Cancelled(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssCancelled"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsErrorGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsErrorGet:
+                    Target: Property Error: System.Exception
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Error(Object &lt;- System.Exception): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssError"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.IssRedunicreDSI_WS.MssExecFuncCompletedEventArgsUserStateGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsUserStateGet:
+                    Target: Property UserState: object
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        UserState(Object &lt;- object): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssUserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsUserStateGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsUserStateGet:
+                    Target: Property UserState: object
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        UserState(Object &lt;- object): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssUserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsErrorGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsErrorGet:
+                    Target: Property Error: System.Exception
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Error(Object &lt;- System.Exception): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssError"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsCancelledGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsCancelledGet:
+                    Target: Property Cancelled: bool
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Cancelled(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssCancelled"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsResultGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsResultGet:
+                    Target: Property Result: RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Result(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Value of the Property
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsUserStateGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsUserStateGet:
+                    Target: Property UserState: object
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        UserState(Object &lt;- object): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssUserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsErrorGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsErrorGet:
+                    Target: Property Error: System.Exception
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Error(Object &lt;- System.Exception): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssError"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsCancelledGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsCancelledGet:
+                    Target: Property Cancelled: bool
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Cancelled(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssCancelled"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsResultGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsResultGet:
+                    Target: Property Result: RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Result(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Value of the Property
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoValueSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoValueSet:
+                    Target: Property value: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        value(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssvalue"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoValueGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoValueGet:
+                    Target: Property value: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        value(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssvalue"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoKeySet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoKeySet:
+                    Target: Property key: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        key(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="sskey"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoKeyGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoKeyGet:
+                    Target: Property key: string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        key(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="sskey"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoCodRetSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCodRetSet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoCodRetGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCodRetGet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoInfoSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoInfoSet:
+                    Target: Property info: RedunicreDSI.WS.ClassInfo[]
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[]): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoInfoGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoInfoGet:
+                    Target: Property info: RedunicreDSI.WS.ClassInfo[]
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[]): Value of the Property
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncDescricaoSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncDescricaoSet:
+                    Target: Property Descricao: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Descricao(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssDescricao"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncDescricaoGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncDescricaoGet:
+                    Target: Property Descricao: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Descricao(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssDescricao"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncFuncionalidade_IdSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncFuncionalidade_IdSet:
+                    Target: Property Funcionalidade_Id: int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Funcionalidade_Id(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssFuncionalidade_Id"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncFuncionalidade_IdGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncFuncionalidade_IdGet:
+                    Target: Property Funcionalidade_Id: int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Funcionalidade_Id(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssFuncionalidade_Id"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncEstabelecimentoSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEstabelecimentoSet:
+                    Target: Property Estabelecimento: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Estabelecimento(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssEstabelecimento"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncEstabelecimentoGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEstabelecimentoGet:
+                    Target: Property Estabelecimento: string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Estabelecimento(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssEstabelecimento"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsCodRetSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCodRetSet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsCodRetGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCodRetGet:
+                    Target: Property codRet: int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        codRet(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="sscodRet"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsFuncSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsFuncSet:
+                    Target: Property Func: RedunicreDSI.WS.ClassFunc[]
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Func(Object &lt;- RedunicreDSI.WS.ClassFunc[]): Value used to set the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsFuncGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsFuncGet:
+                    Target: Property Func: RedunicreDSI.WS.ClassFunc[]
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Func(Object &lt;- RedunicreDSI.WS.ClassFunc[]): Value of the Property
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoContainerGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoContainerGet:
+                    Target: Property Container: System.ComponentModel.IContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Container(Object &lt;- System.ComponentModel.IContainer): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoSiteSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSiteSet:
+                    Target: Property Site: System.ComponentModel.ISite
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Site(Object &lt;- System.ComponentModel.ISite): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSite"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoSiteGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSiteGet:
+                    Target: Property Site: System.ComponentModel.ISite
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Site(Object &lt;- System.ComponentModel.ISite): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSite"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoTimeoutSet(System.Object,System.Int32)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoTimeoutSet:
+                    Target: Property Timeout: int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Timeout(Integer &lt;- int): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssTimeout"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoTimeoutGet(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoTimeoutGet:
+                    Target: Property Timeout: int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Timeout(Integer &lt;- int): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssTimeout"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoRequestEncodingSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoRequestEncodingSet:
+                    Target: Property RequestEncoding: System.Text.Encoding
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        RequestEncoding(Object &lt;- System.Text.Encoding): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssRequestEncoding"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoRequestEncodingGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoRequestEncodingGet:
+                    Target: Property RequestEncoding: System.Text.Encoding
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        RequestEncoding(Object &lt;- System.Text.Encoding): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssRequestEncoding"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUrlSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUrlSet:
+                    Target: Property Url: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Url(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUrl"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUrlGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUrlGet:
+                    Target: Property Url: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Url(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUrl"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoPreAuthenticateSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoPreAuthenticateSet:
+                    Target: Property PreAuthenticate: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        PreAuthenticate(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssPreAuthenticate"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoPreAuthenticateGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoPreAuthenticateGet:
+                    Target: Property PreAuthenticate: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        PreAuthenticate(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssPreAuthenticate"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoConnectionGroupNameSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoConnectionGroupNameSet:
+                    Target: Property ConnectionGroupName: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ConnectionGroupName(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssConnectionGroupName"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoConnectionGroupNameGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoConnectionGroupNameGet:
+                    Target: Property ConnectionGroupName: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ConnectionGroupName(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssConnectionGroupName"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUseDefaultCredentialsSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUseDefaultCredentialsSet:
+                    Target: Property UseDefaultCredentials: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UseDefaultCredentials(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUseDefaultCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUseDefaultCredentialsGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUseDefaultCredentialsGet:
+                    Target: Property UseDefaultCredentials: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UseDefaultCredentials(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUseDefaultCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCredentialsSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCredentialsSet:
+                    Target: Property Credentials: System.Net.ICredentials
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Credentials(Object &lt;- System.Net.ICredentials): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCredentialsGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCredentialsGet:
+                    Target: Property Credentials: System.Net.ICredentials
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Credentials(Object &lt;- System.Net.ICredentials): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCredentials"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUnsafeAuthenticatedConnectionSharingSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUnsafeAuthenticatedConnectionSharingSet:
+                    Target: Property UnsafeAuthenticatedConnectionSharing: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UnsafeAuthenticatedConnectionSharing(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUnsafeAuthenticatedConnectionSharing"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUnsafeAuthenticatedConnectionSharingGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUnsafeAuthenticatedConnectionSharingGet:
+                    Target: Property UnsafeAuthenticatedConnectionSharing: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UnsafeAuthenticatedConnectionSharing(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUnsafeAuthenticatedConnectionSharing"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoProxySet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoProxySet:
+                    Target: Property Proxy: System.Net.IWebProxy
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Proxy(Object &lt;- System.Net.IWebProxy): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssProxy"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoProxyGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoProxyGet:
+                    Target: Property Proxy: System.Net.IWebProxy
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Proxy(Object &lt;- System.Net.IWebProxy): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssProxy"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUserAgentSet(System.Object,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUserAgentSet:
+                    Target: Property UserAgent: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UserAgent(Text &lt;- string): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUserAgent"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoUserAgentGet(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoUserAgentGet:
+                    Target: Property UserAgent: string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        UserAgent(Text &lt;- string): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssUserAgent"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoEnableDecompressionSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEnableDecompressionSet:
+                    Target: Property EnableDecompression: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        EnableDecompression(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssEnableDecompression"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoEnableDecompressionGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEnableDecompressionGet:
+                    Target: Property EnableDecompression: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        EnableDecompression(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssEnableDecompression"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoClientCertificatesGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoClientCertificatesGet:
+                    Target: Property ClientCertificates: System.Security.Cryptography.X509Certificates.X509CertificateCollection
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        ClientCertificates(Object &lt;- System.Security.Cryptography.X509Certificates.X509CertificateCollection): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssClientCertificates"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCookieContainerSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCookieContainerSet:
+                    Target: Property CookieContainer: System.Net.CookieContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        CookieContainer(Object &lt;- System.Net.CookieContainer): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCookieContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCookieContainerGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCookieContainerGet:
+                    Target: Property CookieContainer: System.Net.CookieContainer
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        CookieContainer(Object &lt;- System.Net.CookieContainer): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssCookieContainer"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoAllowAutoRedirectSet(System.Object,System.Boolean)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAllowAutoRedirectSet:
+                    Target: Property AllowAutoRedirect: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        AllowAutoRedirect(Boolean &lt;- bool): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssAllowAutoRedirect"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoAllowAutoRedirectGet(System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAllowAutoRedirectGet:
+                    Target: Property AllowAutoRedirect: bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        AllowAutoRedirect(Boolean &lt;- bool): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssAllowAutoRedirect"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoSoapVersionSet(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSoapVersionSet:
+                    Target: Property SoapVersion: System.Web.Services.Protocols.SoapProtocolVersion
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        SoapVersion(Object &lt;- System.Web.Services.Protocols.SoapProtocolVersion): Value used to set the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSoapVersion"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoSoapVersionGet(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoSoapVersionGet:
+                    Target: Property SoapVersion: System.Web.Services.Protocols.SoapProtocolVersion
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        SoapVersion(Object &lt;- System.Web.Services.Protocols.SoapProtocolVersion): Value of the Property
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssSoapVersion"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssExecFuncCompletedEventArgsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ExecFuncCompletedEventArgsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ExecFuncCompletedEventArgs
+                    Parameters:
+                        This_ExecFuncCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ExecFuncCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ExecFuncCompletedEventArgs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssListFuncsCompletedEventArgsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ListFuncsCompletedEventArgsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ListFuncsCompletedEventArgs
+                    Parameters:
+                        This_ListFuncsCompletedEventArgs(Object &lt;- RedunicreDSI.WS.ListFuncsCompletedEventArgs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ListFuncsCompletedEventArgs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        This_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        This_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassGlobalInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        This_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassFunc"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        This_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_ClassListFuncs"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoGetType(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetType:
+                    Target: Method GetType(): System.Type
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Type(Object &lt;- System.Type): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Type"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoGetHashCode(System.Object,System.Int32@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetHashCode:
+                    Target: Method GetHashCode(): int
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Int32(Integer &lt;- int): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Int32"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoEquals(System.Object,System.Object,System.Boolean@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEquals:
+                    Target: Method Equals(object): bool
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        obj(Object &lt;- object)
+                        Return_Boolean(Boolean &lt;- bool): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssobj"></param>
+            <param name="ssReturn_Boolean"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCreateObjRef(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCreateObjRef:
+                    Target: Method CreateObjRef(System.Type): System.Runtime.Remoting.ObjRef
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        requestedType(Object &lt;- System.Type)
+                        Return_ObjRef(Object &lt;- System.Runtime.Remoting.ObjRef): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssrequestedType"></param>
+            <param name="ssReturn_ObjRef"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoInitializeLifetimeService(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoInitializeLifetimeService:
+                    Target: Method InitializeLifetimeService(): object
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Object(Object &lt;- object): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Object"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoGetLifetimeService(System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoGetLifetimeService:
+                    Target: Method GetLifetimeService(): object
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_Object(Object &lt;- object): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_Object"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoToString(System.Object,System.String@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoToString:
+                    Target: Method ToString(): string
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        Return_String(Text &lt;- string): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssReturn_String"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoDispose(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoDispose:
+                    Target: Method Dispose()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoAbort(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoAbort:
+                    Target: Method Abort()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoDiscover(System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoDiscover:
+                    Target: Method Discover()
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCancelAsync(System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCancelAsync:
+                    Target: Method CancelAsync(object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoExecFuncAsync1(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFuncAsync1:
+                    Target: Method ExecFuncAsync(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[], object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoExecFuncAsync(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFuncAsync:
+                    Target: Method ExecFuncAsync(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[])
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoEndExecFunc(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEndExecFunc:
+                    Target: Method EndExecFunc(System.IAsyncResult): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        asyncResult(Object &lt;- System.IAsyncResult)
+                        Return_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssasyncResult"></param>
+            <param name="ssReturn_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoBeginExecFunc(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoBeginExecFunc:
+                    Target: Method BeginExecFunc(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[], System.AsyncCallback, object): System.IAsyncResult
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        callback(Object &lt;- System.AsyncCallback)
+                        asyncState(Object &lt;- object)
+                        Return_IAsyncResult(Object &lt;- System.IAsyncResult): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="sscallback"></param>
+            <param name="ssasyncState"></param>
+            <param name="ssReturn_IAsyncResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoExecFunc(System.Object,System.String,System.String,System.String,System.Int32,System.Int32,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoExecFunc:
+                    Target: Method ExecFunc(string, string, string, int, int, RedunicreDSI.WS.ClassInfo[]): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        funcId(Integer &lt;- int)
+                        actionId(Integer &lt;- int)
+                        info(Object &lt;- RedunicreDSI.WS.ClassInfo[])
+                        Return_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssfuncId"></param>
+            <param name="ssactionId"></param>
+            <param name="ssinfo"></param>
+            <param name="ssReturn_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoListFuncsAsync1(System.Object,System.String,System.String,System.String,System.Object)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncsAsync1:
+                    Target: Method ListFuncsAsync(string, string, string, object)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        userState(Object &lt;- object)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssuserState"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoListFuncsAsync(System.Object,System.String,System.String,System.String)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncsAsync:
+                    Target: Method ListFuncsAsync(string, string, string)
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoEndListFuncs(System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoEndListFuncs:
+                    Target: Method EndListFuncs(System.IAsyncResult): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        asyncResult(Object &lt;- System.IAsyncResult)
+                        Return_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="ssasyncResult"></param>
+            <param name="ssReturn_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoBeginListFuncs(System.Object,System.String,System.String,System.String,System.Object,System.Object,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoBeginListFuncs:
+                    Target: Method BeginListFuncs(string, string, string, System.AsyncCallback, object): System.IAsyncResult
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        callback(Object &lt;- System.AsyncCallback)
+                        asyncState(Object &lt;- object)
+                        Return_IAsyncResult(Object &lt;- System.IAsyncResult): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="sscallback"></param>
+            <param name="ssasyncState"></param>
+            <param name="ssReturn_IAsyncResult"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoListFuncs(System.Object,System.String,System.String,System.String,System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoListFuncs:
+                    Target: Method ListFuncs(string, string, string): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        This_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the object instance to invoke
+                        sessId(Text &lt;- string)
+                        userName(Text &lt;- string)
+                        passwd(Text &lt;- string)
+                        Return_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the method return
+            </summary>
+            <param name="ssThis_GlobalInfo"></param>
+            <param name="sssessId"></param>
+            <param name="ssuserName"></param>
+            <param name="sspasswd"></param>
+            <param name="ssReturn_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassInfoCreate:
+                    Target: Constructor ClassInfo(): RedunicreDSI.WS.ClassInfo
+                    Declaring Type: RedunicreDSI.WS.ClassInfo
+                    Parameters:
+                        New_ClassInfo(Object &lt;- RedunicreDSI.WS.ClassInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassGlobalInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassGlobalInfoCreate:
+                    Target: Constructor ClassGlobalInfo(): RedunicreDSI.WS.ClassGlobalInfo
+                    Declaring Type: RedunicreDSI.WS.ClassGlobalInfo
+                    Parameters:
+                        New_ClassGlobalInfo(Object &lt;- RedunicreDSI.WS.ClassGlobalInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassGlobalInfo"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassFuncCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassFuncCreate:
+                    Target: Constructor ClassFunc(): RedunicreDSI.WS.ClassFunc
+                    Declaring Type: RedunicreDSI.WS.ClassFunc
+                    Parameters:
+                        New_ClassFunc(Object &lt;- RedunicreDSI.WS.ClassFunc): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassFunc"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssClassListFuncsCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action ClassListFuncsCreate:
+                    Target: Constructor ClassListFuncs(): RedunicreDSI.WS.ClassListFuncs
+                    Declaring Type: RedunicreDSI.WS.ClassListFuncs
+                    Parameters:
+                        New_ClassListFuncs(Object &lt;- RedunicreDSI.WS.ClassListFuncs): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_ClassListFuncs"></param>
+        </member>
+        <member name="M:OutSystems.NssRedunicreDSI_WS.CssRedunicreDSI_WS.MssGlobalInfoCreate(System.Object@)">
+            <summary>
+            Import Details:
+            
+             - Action GlobalInfoCreate:
+                    Target: Constructor GlobalInfo(): RedunicreDSI.WS.GlobalInfo
+                    Declaring Type: RedunicreDSI.WS.GlobalInfo
+                    Parameters:
+                        New_GlobalInfo(Object &lt;- RedunicreDSI.WS.GlobalInfo): Parameter added to hold the new object instance
+            </summary>
+            <param name="ssNew_GlobalInfo"></param>
+        </member>
+    </members>
+</doc>

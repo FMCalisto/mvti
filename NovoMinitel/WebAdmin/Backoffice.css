@@ -1,0 +1,24 @@
+.Login {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+.titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+}
+.titulos_laranja {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF9900;
+	font-weight: bold;
+}

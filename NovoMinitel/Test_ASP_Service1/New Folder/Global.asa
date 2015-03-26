@@ -1,0 +1,18 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server> 
+
+Sub Application_OnStart 
+    Dim ASPNETResources 
+
+    ASPNETResources = GetASPNetResources()    
+    Application("ASPNETExpires") = 12    'set the content to expire in 12 hours. 
+    If Len(ASPNETResources) >0 then    'populate the application level variables 
+        Application.Lock 
+        
+        Application("ASPNETResourcesUpdated")=Now() 
+        Application("ASPNETResourceList")=ASPNETResources 
+        Application.UnLock 
+    End if 
+
+End Sub 
+</script> 
+<!-- #include file="i_soapcall.asp" --> 

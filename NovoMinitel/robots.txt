@@ -1,0 +1,19 @@
+User-agent: *
+Disallow:	/aspnet_client
+Disallow:	/BACKOFFICE A DESENVOLVER
+Disallow:	/DLL_MINITEL
+Disallow:	/download
+Disallow:	/eventos
+Disallow:	/images
+Disallow:	/includes
+Disallow:	/Mails
+Disallow:	/Mails_ES
+Disallow:	/MINITEL A DESENVOLVER
+Disallow:	/offlinne
+Disallow:	/Scripts
+Disallow:	/tabelas
+Disallow:	/Testes
+Disallow:	/WebAdmin
+Disallow:	/_notes
+Disallow:	/MDN
+

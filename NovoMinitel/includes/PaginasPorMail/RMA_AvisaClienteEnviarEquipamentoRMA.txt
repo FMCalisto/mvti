@@ -1,0 +1,41 @@
+XCONTACTO  //  XEMPRESA
+
+XTEMPO
+
+Seu pedido de Reparação foi aceite. Pode neste momento enviá-lo para nossas instalações.
+
+Por favor, ao embalar o produto cole à embalagem a folha que deverá imprimir desde o seguinte link :
+
+LINK : http://www.minitel.pt/includes/Do_RMA_FolhaImprimir.asp?ID=XXRMAID&NO=XNO&XEK=XXEK
+
+*****************************************************************
+
+Número da Factura : XFACTURA
+Data da Factura : XFDATA
+
+Referência : XREF
+Número de Serie : XSERIE
+Designação : XDESIGN
+Marca : XMARCA
+Modelo : XMODELO
+
+Motivo da devolucao : XMOTIVO
+
+Sintoma do equipamento : XSINTOMA
+
+*****************************************************************
+
+Qualquer questão, contacte o seu comercial [ XCOMERCIAL ] pelo telefone [ XTELEFONE ]
+ou pelo email [ XEMAIL ]
+
+Altere regularmente a password !
+
+*****************************************************************
+Esta mensagem foi-lhe enviada por um sistema automático. 
+
+Qualquer duvida acerca do conteúdo da mesma, contacte-nos. 
+Minitel - Sociedade de Fomento de Aplicações Informáticas, L.da. 
+Travessa Légua da Póvoa, 1A - 1250-136 Lisboa
+Tel: +351 21 381 09 00 - Fax: +351 21 385 05 44
+E-mail: info@minitel.pt
+*****************************************************************

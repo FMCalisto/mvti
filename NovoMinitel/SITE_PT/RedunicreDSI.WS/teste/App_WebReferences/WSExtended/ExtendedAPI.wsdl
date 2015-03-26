@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:intf="http://impl.ws.payline.experian.com" xmlns:tns1="http://obj.ws.payline.experian.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://impl.ws.payline.experian.com" targetNamespace="http://impl.ws.payline.experian.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://impl.ws.payline.experian.com">
+      <xsd:import namespace="http://obj.ws.payline.experian.com" />
+      <xsd:element name="doWebPaymentRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doWebPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="returnURL" type="xsd:string" />
+            <xsd:element name="cancelURL" type="xsd:string" />
+            <xsd:element name="order" type="tns1:order" />
+            <xsd:element name="notificationURL" nillable="true" type="xsd:string" />
+            <xsd:element name="selectedContractList" nillable="true" type="tns1:selectedContractList" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="languageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="customPaymentPageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="buyer" nillable="true" type="tns1:buyer" />
+            <xsd:element name="securityMode" nillable="true" type="xsd:string" />
+            <xsd:element name="recurring" nillable="true" type="tns1:recurring" />
+            <xsd:element name="customPaymentTemplateURL" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doWebPaymentResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doWebPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="token" type="xsd:string" />
+            <xsd:element name="redirectURL" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWebPaymentDetailsRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the getWebPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="token" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWebPaymentDetailsResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doWebPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="authorization" type="tns1:authorization" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="billingRecordList" nillable="true" type="tns1:billingRecordList" />
+            <xsd:element name="authentication3DSecure" nillable="true" type="tns1:authentication3DSecure" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doAuthorizationRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doAuthorization method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="card" type="tns1:card" />
+            <xsd:element name="order" type="tns1:order" />
+            <xsd:element name="buyer" nillable="true" type="tns1:buyer" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="authentication3DSecure" nillable="true" type="tns1:authentication3DSecure" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doAuthorizationResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doAuthorization method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+            <xsd:element name="authorization" type="tns1:authorization" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doCaptureRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doCapture method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="transactionID" type="xsd:string" />
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="sequenceNumber" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doCaptureResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doCapture method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+            <xsd:element name="reAuthorization" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doRefundRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doRefund method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="transactionID" type="xsd:string" />
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="sequenceNumber" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doRefundResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doRefund method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doResetRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doReset method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="transactionID" type="xsd:string" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doResetResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doReset method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doCreditRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doCredit method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="card" type="tns1:card" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+            <xsd:element name="order" nillable="true" type="tns1:order" />
+            <xsd:element name="buyer" nillable="true" type="tns1:buyer" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doCreditResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doCredit method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" type="tns1:transaction" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassCaptureRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doMassCapture method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="captureAuthorizationList" nillable="true" type="tns1:captureAuthorizationList" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassCaptureResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doMassCapture method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="massTraitmentID" type="xsd:string" />
+            <xsd:element name="date" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassRefundRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doMassRefund method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="refundAuthorizationList" nillable="true" type="tns1:refundAuthorizationList" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassRefundResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doMassRefund method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="massTraitmentID" type="xsd:string" />
+            <xsd:element name="date" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassResetRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doMassRefund method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="resetAuthorizationList" nillable="true" type="tns1:resetAuthorizationList" />
+            <xsd:element name="comment" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doMassResetResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doMassReset method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="massTraitmentID" type="xsd:string" />
+            <xsd:element name="date" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getMassTraitmentDetailsRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the getMassTraitmentDetails method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="massTraitmentID" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getMassTraitmentDetailsResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the getMassTraitmentDetails method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="massTraitementID" type="xsd:string" />
+            <xsd:element name="totalLinesNumber" nillable="true" type="xsd:string" />
+            <xsd:element name="failedLinesNumber" nillable="true" type="xsd:string" />
+            <xsd:element name="failedListObject" nillable="true" type="tns1:failedListObject" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the createWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="wallet" type="tns1:wallet" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the createWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the updateWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="wallet" type="tns1:wallet" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the updateWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the getWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="walletId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the getWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="wallet" nillable="true" type="tns1:wallet" />
+            <xsd:element name="isDisabled" nillable="true" type="xsd:string" />
+            <xsd:element name="disableDate" nillable="true" type="xsd:string" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="disableWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the disableWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="walletIdList" type="tns1:walletIdList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="disableWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the disableWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="walletIdList" type="tns1:walletIdList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="enableWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the enableWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="walletId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="enableWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the enableWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doImmediateWalletPaymentRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doImmediateWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="order" type="tns1:order" />
+            <xsd:element name="walletId" type="xsd:string" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doImmediateWalletPaymentResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doImmediateWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" nillable="true" type="tns1:transaction" />
+            <xsd:element name="authorization" nillable="true" type="tns1:authorization" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doScheduledWalletPaymentRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doScheduledWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="orderRef" nillable="true" type="xsd:string" />
+            <xsd:element name="orderDate" nillable="true" type="xsd:string" />
+            <xsd:element name="scheduledDate" type="xsd:string" />
+            <xsd:element name="walletId" type="xsd:string" />
+            <xsd:element name="order" nillable="true" type="tns1:order" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doScheduledWalletPaymentResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doScheduledWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="paymentRecordId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doRecurrentWalletPaymentRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doRecurrentWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="orderRef" type="xsd:string" />
+            <xsd:element name="orderDate" type="xsd:string" />
+            <xsd:element name="scheduledDate" type="xsd:string" />
+            <xsd:element name="walletId" type="xsd:string" />
+            <xsd:element name="recurring" type="tns1:recurring" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="order" nillable="true" type="tns1:order" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="doRecurrentWalletPaymentResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doRecurrentWalletPayment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="paymentRecordId" type="xsd:string" />
+            <xsd:element name="billingRecordList" type="tns1:billingRecordList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getPaymentRecordRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the getPaymentRecord method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="paymentRecordId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getPaymentRecordResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the getPaymentRecord method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="recurring" type="tns1:recurring" />
+            <xsd:element name="isDisabled" nillable="true" type="xsd:string" />
+            <xsd:element name="disableDate" nillable="true" type="xsd:string" />
+            <xsd:element name="billingRecordList" type="tns1:billingRecordList" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="order" nillable="true" type="tns1:order" />
+            <xsd:element name="walletId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="disablePaymentRecordRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the disablePaymentRecord method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="paymentRecordId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="disablePaymentRecordResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the disablePaymentRecord method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createWebWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the createWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="selectedContractList" nillable="true" type="tns1:selectedContractList" />
+            <xsd:element name="updatePersonalDetails" nillable="true" type="xsd:string" />
+            <xsd:element name="buyer" type="tns1:buyer" />
+            <xsd:element name="languageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="customPaymentPageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="securityMode" nillable="true" type="xsd:string" />
+            <xsd:element name="returnURL" type="xsd:string" />
+            <xsd:element name="cancelURL" type="xsd:string" />
+            <xsd:element name="notificationURL" nillable="true" type="xsd:string" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="customPaymentTemplateURL" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createWebWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the createWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="token" type="xsd:string" />
+            <xsd:element name="redirectURL" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateWebWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the updateWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="walletId" type="xsd:string" />
+            <xsd:element name="updatePersonalDetails" nillable="true" type="xsd:string" />
+            <xsd:element name="updatePaymentDetails" nillable="true" type="xsd:string" />
+            <xsd:element name="languageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="customPaymentPageCode" nillable="true" type="xsd:string" />
+            <xsd:element name="securityMode" nillable="true" type="xsd:string" />
+            <xsd:element name="returnURL" type="xsd:string" />
+            <xsd:element name="cancelURL" type="xsd:string" />
+            <xsd:element name="notificationURL" nillable="true" type="xsd:string" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+            <xsd:element name="customPaymentTemplateURL" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateWebWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the updateWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="token" type="xsd:string" />
+            <xsd:element name="redirectURL" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWebWalletRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the getWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="token" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getWebWalletResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the getWebWallet method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="wallet" nillable="true" type="tns1:wallet" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getTransactionDetailsRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the getTransactionDetails method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="transactionId" nillable="true" type="xsd:string" />
+            <xsd:element name="orderRef" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getTransactionDetailsResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the response for the getTransactionDetails method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transaction" nillable="true" type="tns1:transaction" />
+            <xsd:element name="payment" nillable="true" type="tns1:payment" />
+            <xsd:element name="authorization" nillable="true" type="tns1:authorization" />
+            <xsd:element name="order" nillable="true" type="tns1:order" />
+            <xsd:element name="buyer" nillable="true" type="tns1:buyer" />
+            <xsd:element name="privateDataList" nillable="true" type="tns1:privateDataList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="transactionsSearchRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the transactionsSearch method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="transactionId" nillable="true" type="xsd:string" />
+            <xsd:element name="orderRef" nillable="true" type="xsd:string" />
+            <xsd:element name="startDate" nillable="true" type="xsd:string" />
+            <xsd:element name="endDate" nillable="true" type="xsd:string" />
+            <xsd:element name="contractNumber" nillable="true" type="xsd:string" />
+            <xsd:element name="authorizationNumber" nillable="true" type="xsd:string" />
+            <xsd:element name="returnCode" nillable="true" type="xsd:string" />
+            <xsd:element name="paymentMean" nillable="true" type="xsd:string" />
+            <xsd:element name="transactionType" nillable="true" type="xsd:string" />
+            <xsd:element name="name" nillable="true" type="xsd:string" />
+            <xsd:element name="firstName" nillable="true" type="xsd:string" />
+            <xsd:element name="email" nillable="true" type="xsd:string" />
+            <xsd:element name="cardNumber" nillable="true" type="xsd:string" />
+            <xsd:element name="currency" nillable="true" type="xsd:string" />
+            <xsd:element name="minAmount" nillable="true" type="xsd:string" />
+            <xsd:element name="maxAmount" nillable="true" type="xsd:string" />
+            <xsd:element name="walletId" nillable="true" type="xsd:string" />
+            <xsd:element name="sequenceNumber" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="transactionsSearchResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the response for the transactionsSearch method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="transactionList" nillable="true" type="tns1:transactionList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="verifyEnrollmentRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the verifyEnrollment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="card" type="tns1:card" />
+            <xsd:element name="payment" type="tns1:payment" />
+            <xsd:element name="orderRef" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="verifyEnrollmentResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the verifyEnrollment method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="actionUrl" nillable="true" type="xsd:string" />
+            <xsd:element name="actionMethod" nillable="true" type="xsd:string" />
+            <xsd:element name="pareqFieldName" nillable="true" type="xsd:string" />
+            <xsd:element name="pareqFieldValue" nillable="true" type="xsd:string" />
+            <xsd:element name="termUrlName" nillable="true" type="xsd:string" />
+            <xsd:element name="termUrlValue" nillable="true" type="xsd:string" />
+            <xsd:element name="mdFieldName" nillable="true" type="xsd:string" />
+            <xsd:element name="mdFieldValue" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="verifyAuthenticationRequest">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the request for the doAuthentication method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="contractNumber" type="xsd:string" />
+            <xsd:element name="pares" type="xsd:string" />
+            <xsd:element name="md" nillable="true" type="xsd:string" />
+            <xsd:element name="card" type="tns1:card" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="verifyAuthenticationResponse">
+        <xsd:complexType>
+          <xsd:annotation>
+            <xsd:documentation>
+							This element is the reponse from the doAuthentication method
+			        	</xsd:documentation>
+          </xsd:annotation>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns1:result" />
+            <xsd:element name="authentication3DSecure" nillable="true" type="tns1:authentication3DSecure" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://obj.ws.payline.experian.com">
+      <xsd:complexType name="result">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the process
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="code" type="xsd:string" />
+          <xsd:element name="shortMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="longMessage" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="order">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the order
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="ref" type="xsd:string" />
+          <xsd:element name="origin" nillable="true" type="xsd:string" />
+          <xsd:element name="country" nillable="true" type="xsd:string" />
+          <xsd:element name="taxes" nillable="true" type="xsd:string" />
+          <xsd:element name="amount" type="xsd:string" />
+          <xsd:element name="currency" type="xsd:string" />
+          <xsd:element name="date" type="xsd:string" />
+          <xsd:element name="details" nillable="true" type="tns1:details" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="details">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains an array of orderDetail
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="100" name="details" type="tns1:orderDetail" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="orderDetail">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the order product
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="ref" nillable="true" type="xsd:string" />
+          <xsd:element name="price" nillable="true" type="xsd:string" />
+          <xsd:element name="quantity" nillable="true" type="xsd:string" />
+          <xsd:element name="comment" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="privateData">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the merchant private data
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="key" type="xsd:string" />
+          <xsd:element name="value" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="transaction">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the transaction
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="id" type="xsd:string" />
+          <xsd:element name="date" type="xsd:string" />
+          <xsd:element name="isDuplicated" nillable="true" type="xsd:string" />
+          <xsd:element name="isPossibleFraud" type="xsd:string" />
+          <xsd:element name="fraudResult" nillable="true" type="xsd:string" />
+          <xsd:element name="explanation" nillable="true" type="xsd:string" />
+          <xsd:element name="score" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="payment">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the payment
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="amount" type="xsd:string" />
+          <xsd:element name="currency" type="xsd:string" />
+          <xsd:element name="action" type="xsd:string" />
+          <xsd:element name="mode" type="xsd:string" />
+          <xsd:element name="contractNumber" type="xsd:string" />
+          <xsd:element name="differedActionDate" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="authorization">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the authorization
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="number" type="xsd:string" />
+          <xsd:element name="date" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="card">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the card
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="number" type="xsd:string" />
+          <xsd:element name="type" type="xsd:string" />
+          <xsd:element name="expirationDate" nillable="true" type="xsd:string" />
+          <xsd:element name="cvx" nillable="true" type="xsd:string" />
+          <xsd:element name="ownerBirthdayDate" nillable="true" type="xsd:string" />
+          <xsd:element name="password" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="buyer">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the buyer
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="lastName" nillable="true" type="xsd:string" />
+          <xsd:element name="firstName" nillable="true" type="xsd:string" />
+          <xsd:element name="email" nillable="true" type="xsd:string" />
+          <xsd:element name="shippingAdress" nillable="true" type="tns1:address" />
+          <xsd:element name="accountCreateDate" nillable="true" type="xsd:string" />
+          <xsd:element name="accountAverageAmount" nillable="true" type="xsd:string" />
+          <xsd:element name="accountOrderCount" nillable="true" type="xsd:string" />
+          <xsd:element name="walletId" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="address">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the address
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="name" nillable="true" type="xsd:string" />
+          <xsd:element name="street1" nillable="true" type="xsd:string" />
+          <xsd:element name="street2" nillable="true" type="xsd:string" />
+          <xsd:element name="cityName" nillable="true" type="xsd:string" />
+          <xsd:element name="zipCode" nillable="true" type="xsd:string" />
+          <xsd:element name="country" nillable="true" type="xsd:string" />
+          <xsd:element name="phone" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="capture">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the capture
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="transactionID" type="xsd:string" />
+          <xsd:element name="payment" type="tns1:payment" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="refund">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains information about the refund
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="transactionID" type="xsd:string" />
+          <xsd:element name="payment" type="tns1:payment" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="selectedContractList">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains the list of selected card
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="25" name="selectedContract" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="privateDataList">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of private data
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="100" name="privateData" type="tns1:privateData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="captureAuthorizationList">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of authorization to capture
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="5000" name="capture" type="tns1:capture" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="refundAuthorizationList">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of authorization to refund
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="5000" name="refund" type="tns1:refund" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="resetAuthorizationList">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of authorization to reset
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="5000" name="transactionID" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="failedListObject">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of mass element failed
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="5000" name="failedObject" type="tns1:transaction" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="failedObject">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains failedObject 
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="transactionID" type="xsd:string" />
+          <xsd:element name="result" type="tns1:result" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="recurring">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains element for recurring operation 
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="firstAmount" nillable="true" type="xsd:string" />
+          <xsd:element name="amount" type="xsd:string" />
+          <xsd:element name="billingCycle" type="xsd:string" />
+          <xsd:element name="billingLeft" type="xsd:string" />
+          <xsd:element name="billingDay" nillable="true" type="xsd:string" />
+          <xsd:element name="startDate" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="billingRecord">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains element for a billing record
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="date" type="xsd:string" />
+          <xsd:element name="amount" type="xsd:string" />
+          <xsd:element name="status" type="xsd:string" />
+          <xsd:element name="result" nillable="true" type="tns1:result" />
+          <xsd:element name="transaction" nillable="true" type="tns1:transaction" />
+          <xsd:element name="authorization" nillable="true" type="tns1:authorization" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="billingRecordList">
+        <xsd:annotation>
+          <xsd:documentation>
+						An array of billing record
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="100" name="billingRecord" type="tns1:billingRecord" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="wallet">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains element for a wallet 
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="walletId" type="xsd:string" />
+          <xsd:element name="lastName" nillable="true" type="xsd:string" />
+          <xsd:element name="firstName" nillable="true" type="xsd:string" />
+          <xsd:element name="email" nillable="true" type="xsd:string" />
+          <xsd:element name="shippingAddress" nillable="true" type="tns1:address" />
+          <xsd:element name="card" type="tns1:card" />
+          <xsd:element name="comment" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="walletIdList">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains the list of selected card
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="500" name="walletId" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="transactionList">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains the list of selected card
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="transaction" type="tns1:transaction" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="authentication3DSecure">
+        <xsd:annotation>
+          <xsd:documentation>
+						This element contains element for a 3DSecure transaction 
+		        	</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="md" nillable="true" type="xsd:string" />
+          <xsd:element name="xid" nillable="true" type="xsd:string" />
+          <xsd:element name="eci" nillable="true" type="xsd:string" />
+          <xsd:element name="cavv" nillable="true" type="xsd:string" />
+          <xsd:element name="cavvAlgorithm" nillable="true" type="xsd:string" />
+          <xsd:element name="vadsResult" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="createWalletResponse">
+    <wsdl:part name="parameters" element="impl:createWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateWalletResponse">
+    <wsdl:part name="parameters" element="impl:updateWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMassTraitmentDetailsResponse">
+    <wsdl:part name="parameters" element="impl:getMassTraitmentDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="transactionsSearchResponse">
+    <wsdl:part name="parameters" element="impl:transactionsSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="enableWalletRequest">
+    <wsdl:part name="parameters" element="impl:enableWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="getPaymentRecordRequest">
+    <wsdl:part name="parameters" element="impl:getPaymentRecordRequest" />
+  </wsdl:message>
+  <wsdl:message name="getTransactionDetailsResponse">
+    <wsdl:part name="parameters" element="impl:getTransactionDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="doAuthorizationResponse">
+    <wsdl:part name="parameters" element="impl:doAuthorizationResponse" />
+  </wsdl:message>
+  <wsdl:message name="doMassRefundResponse">
+    <wsdl:part name="parameters" element="impl:doMassRefundResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWebPaymentDetailsResponse">
+    <wsdl:part name="parameters" element="impl:getWebPaymentDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMassTraitmentDetailsRequest">
+    <wsdl:part name="parameters" element="impl:getMassTraitmentDetailsRequest" />
+  </wsdl:message>
+  <wsdl:message name="doScheduledWalletPaymentRequest">
+    <wsdl:part name="parameters" element="impl:doScheduledWalletPaymentRequest" />
+  </wsdl:message>
+  <wsdl:message name="doCaptureRequest">
+    <wsdl:part name="parameters" element="impl:doCaptureRequest" />
+  </wsdl:message>
+  <wsdl:message name="disableWalletRequest">
+    <wsdl:part name="parameters" element="impl:disableWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="disablePaymentRecordResponse">
+    <wsdl:part name="parameters" element="impl:disablePaymentRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="doCaptureResponse">
+    <wsdl:part name="parameters" element="impl:doCaptureResponse" />
+  </wsdl:message>
+  <wsdl:message name="createWebWalletRequest">
+    <wsdl:part name="parameters" element="impl:createWebWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="createWalletRequest">
+    <wsdl:part name="parameters" element="impl:createWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="enableWalletResponse">
+    <wsdl:part name="parameters" element="impl:enableWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="transactionsSearchRequest">
+    <wsdl:part name="parameters" element="impl:transactionsSearchRequest" />
+  </wsdl:message>
+  <wsdl:message name="getWebPaymentDetailsRequest">
+    <wsdl:part name="parameters" element="impl:getWebPaymentDetailsRequest" />
+  </wsdl:message>
+  <wsdl:message name="doWebPaymentResponse">
+    <wsdl:part name="parameters" element="impl:doWebPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWalletRequest">
+    <wsdl:part name="parameters" element="impl:getWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="createWebWalletResponse">
+    <wsdl:part name="parameters" element="impl:createWebWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPaymentRecordResponse">
+    <wsdl:part name="parameters" element="impl:getPaymentRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWebWalletResponse">
+    <wsdl:part name="parameters" element="impl:getWebWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWebWalletRequest">
+    <wsdl:part name="parameters" element="impl:getWebWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="doMassCaptureRequest">
+    <wsdl:part name="parameters" element="impl:doMassCaptureRequest" />
+  </wsdl:message>
+  <wsdl:message name="updateWebWalletRequest">
+    <wsdl:part name="parameters" element="impl:updateWebWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="doMassResetResponse">
+    <wsdl:part name="parameters" element="impl:doMassResetResponse" />
+  </wsdl:message>
+  <wsdl:message name="doResetRequest">
+    <wsdl:part name="parameters" element="impl:doResetRequest" />
+  </wsdl:message>
+  <wsdl:message name="disablePaymentRecordRequest">
+    <wsdl:part name="parameters" element="impl:disablePaymentRecordRequest" />
+  </wsdl:message>
+  <wsdl:message name="disableWalletResponse">
+    <wsdl:part name="parameters" element="impl:disableWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="doImmediateWalletPaymentRequest">
+    <wsdl:part name="parameters" element="impl:doImmediateWalletPaymentRequest" />
+  </wsdl:message>
+  <wsdl:message name="verifyEnrollmentResponse">
+    <wsdl:part name="parameters" element="impl:verifyEnrollmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateWalletRequest">
+    <wsdl:part name="parameters" element="impl:updateWalletRequest" />
+  </wsdl:message>
+  <wsdl:message name="doRecurrentWalletPaymentResponse">
+    <wsdl:part name="parameters" element="impl:doRecurrentWalletPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateWebWalletResponse">
+    <wsdl:part name="parameters" element="impl:updateWebWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="doMassCaptureResponse">
+    <wsdl:part name="parameters" element="impl:doMassCaptureResponse" />
+  </wsdl:message>
+  <wsdl:message name="doRefundResponse">
+    <wsdl:part name="parameters" element="impl:doRefundResponse" />
+  </wsdl:message>
+  <wsdl:message name="doCreditRequest">
+    <wsdl:part name="parameters" element="impl:doCreditRequest" />
+  </wsdl:message>
+  <wsdl:message name="doRecurrentWalletPaymentRequest">
+    <wsdl:part name="parameters" element="impl:doRecurrentWalletPaymentRequest" />
+  </wsdl:message>
+  <wsdl:message name="getWalletResponse">
+    <wsdl:part name="parameters" element="impl:getWalletResponse" />
+  </wsdl:message>
+  <wsdl:message name="verifyAuthenticationRequest">
+    <wsdl:part name="parameters" element="impl:verifyAuthenticationRequest" />
+  </wsdl:message>
+  <wsdl:message name="verifyEnrollmentRequest">
+    <wsdl:part name="parameters" element="impl:verifyEnrollmentRequest" />
+  </wsdl:message>
+  <wsdl:message name="doAuthorizationRequest">
+    <wsdl:part name="parameters" element="impl:doAuthorizationRequest" />
+  </wsdl:message>
+  <wsdl:message name="getTransactionDetailsRequest">
+    <wsdl:part name="parameters" element="impl:getTransactionDetailsRequest" />
+  </wsdl:message>
+  <wsdl:message name="doRefundRequest">
+    <wsdl:part name="parameters" element="impl:doRefundRequest" />
+  </wsdl:message>
+  <wsdl:message name="doMassResetRequest">
+    <wsdl:part name="parameters" element="impl:doMassResetRequest" />
+  </wsdl:message>
+  <wsdl:message name="doWebPaymentRequest">
+    <wsdl:part name="parameters" element="impl:doWebPaymentRequest" />
+  </wsdl:message>
+  <wsdl:message name="doResetResponse">
+    <wsdl:part name="parameters" element="impl:doResetResponse" />
+  </wsdl:message>
+  <wsdl:message name="doImmediateWalletPaymentResponse">
+    <wsdl:part name="parameters" element="impl:doImmediateWalletPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="doMassRefundRequest">
+    <wsdl:part name="parameters" element="impl:doMassRefundRequest" />
+  </wsdl:message>
+  <wsdl:message name="doCreditResponse">
+    <wsdl:part name="parameters" element="impl:doCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="doScheduledWalletPaymentResponse">
+    <wsdl:part name="parameters" element="impl:doScheduledWalletPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="verifyAuthenticationResponse">
+    <wsdl:part name="parameters" element="impl:verifyAuthenticationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MassPaymentAPI">
+    <wsdl:operation name="doMassCapture">
+      <wsdl:input name="doMassCaptureRequest" message="impl:doMassCaptureRequest" />
+      <wsdl:output name="doMassCaptureResponse" message="impl:doMassCaptureResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doMassRefund">
+      <wsdl:input name="doMassRefundRequest" message="impl:doMassRefundRequest" />
+      <wsdl:output name="doMassRefundResponse" message="impl:doMassRefundResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doMassReset">
+      <wsdl:input name="doMassResetRequest" message="impl:doMassResetRequest" />
+      <wsdl:output name="doMassResetResponse" message="impl:doMassResetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getMassTraitmentDetails">
+      <wsdl:input name="getMassTraitmentDetailsRequest" message="impl:getMassTraitmentDetailsRequest" />
+      <wsdl:output name="getMassTraitmentDetailsResponse" message="impl:getMassTraitmentDetailsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebPaymentAPI">
+    <wsdl:operation name="doWebPayment">
+      <wsdl:input name="doWebPaymentRequest" message="impl:doWebPaymentRequest" />
+      <wsdl:output name="doWebPaymentResponse" message="impl:doWebPaymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getWebPaymentDetails">
+      <wsdl:input name="getWebPaymentDetailsRequest" message="impl:getWebPaymentDetailsRequest" />
+      <wsdl:output name="getWebPaymentDetailsResponse" message="impl:getWebPaymentDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createWebWallet">
+      <wsdl:input name="createWebWalletRequest" message="impl:createWebWalletRequest" />
+      <wsdl:output name="createWebWalletResponse" message="impl:createWebWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateWebWallet">
+      <wsdl:input name="updateWebWalletRequest" message="impl:updateWebWalletRequest" />
+      <wsdl:output name="updateWebWalletResponse" message="impl:updateWebWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getWebWallet">
+      <wsdl:input name="getWebWalletRequest" message="impl:getWebWalletRequest" />
+      <wsdl:output name="getWebWalletResponse" message="impl:getWebWalletResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DirectPaymentAPI">
+    <wsdl:operation name="doAuthorization">
+      <wsdl:input name="doAuthorizationRequest" message="impl:doAuthorizationRequest" />
+      <wsdl:output name="doAuthorizationResponse" message="impl:doAuthorizationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doCapture">
+      <wsdl:input name="doCaptureRequest" message="impl:doCaptureRequest" />
+      <wsdl:output name="doCaptureResponse" message="impl:doCaptureResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doRefund">
+      <wsdl:input name="doRefundRequest" message="impl:doRefundRequest" />
+      <wsdl:output name="doRefundResponse" message="impl:doRefundResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doReset">
+      <wsdl:input name="doResetRequest" message="impl:doResetRequest" />
+      <wsdl:output name="doResetResponse" message="impl:doResetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doCredit">
+      <wsdl:input name="doCreditRequest" message="impl:doCreditRequest" />
+      <wsdl:output name="doCreditResponse" message="impl:doCreditResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createWallet">
+      <wsdl:input name="createWalletRequest" message="impl:createWalletRequest" />
+      <wsdl:output name="createWalletResponse" message="impl:createWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateWallet">
+      <wsdl:input name="updateWalletRequest" message="impl:updateWalletRequest" />
+      <wsdl:output name="updateWalletResponse" message="impl:updateWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getWallet">
+      <wsdl:input name="getWalletRequest" message="impl:getWalletRequest" />
+      <wsdl:output name="getWalletResponse" message="impl:getWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="disableWallet">
+      <wsdl:input name="disableWalletRequest" message="impl:disableWalletRequest" />
+      <wsdl:output name="disableWalletResponse" message="impl:disableWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enableWallet">
+      <wsdl:input name="enableWalletRequest" message="impl:enableWalletRequest" />
+      <wsdl:output name="enableWalletResponse" message="impl:enableWalletResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doImmediateWalletPayment">
+      <wsdl:input name="doImmediateWalletPaymentRequest" message="impl:doImmediateWalletPaymentRequest" />
+      <wsdl:output name="doImmediateWalletPaymentResponse" message="impl:doImmediateWalletPaymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doScheduledWalletPayment">
+      <wsdl:input name="doScheduledWalletPaymentRequest" message="impl:doScheduledWalletPaymentRequest" />
+      <wsdl:output name="doScheduledWalletPaymentResponse" message="impl:doScheduledWalletPaymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="doRecurrentWalletPayment">
+      <wsdl:input name="doRecurrentWalletPaymentRequest" message="impl:doRecurrentWalletPaymentRequest" />
+      <wsdl:output name="doRecurrentWalletPaymentResponse" message="impl:doRecurrentWalletPaymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPaymentRecord">
+      <wsdl:input name="getPaymentRecordRequest" message="impl:getPaymentRecordRequest" />
+      <wsdl:output name="getPaymentRecordResponse" message="impl:getPaymentRecordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="disablePaymentRecord">
+      <wsdl:input name="disablePaymentRecordRequest" message="impl:disablePaymentRecordRequest" />
+      <wsdl:output name="disablePaymentRecordResponse" message="impl:disablePaymentRecordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyEnrollment">
+      <wsdl:input name="verifyEnrollmentRequest" message="impl:verifyEnrollmentRequest" />
+      <wsdl:output name="verifyEnrollmentResponse" message="impl:verifyEnrollmentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyAuthentication">
+      <wsdl:input name="verifyAuthenticationRequest" message="impl:verifyAuthenticationRequest" />
+      <wsdl:output name="verifyAuthenticationResponse" message="impl:verifyAuthenticationResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ExtendedAPI">
+    <wsdl:operation name="getTransactionDetails">
+      <wsdl:input name="getTransactionDetailsRequest" message="impl:getTransactionDetailsRequest" />
+      <wsdl:output name="getTransactionDetailsResponse" message="impl:getTransactionDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="transactionsSearch">
+      <wsdl:input name="transactionsSearchRequest" message="impl:transactionsSearchRequest" />
+      <wsdl:output name="transactionsSearchResponse" message="impl:transactionsSearchResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MassPaymentAPISoapBinding" type="impl:MassPaymentAPI">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="doMassCapture">
+      <wsdlsoap:operation soapAction="doMassCapture" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doMassRefund">
+      <wsdlsoap:operation soapAction="doMassRefund" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doMassReset">
+      <wsdlsoap:operation soapAction="doMassReset" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMassTraitmentDetails">
+      <wsdlsoap:operation soapAction="getMassTraitmentDetails" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DirectPaymentAPISoapBinding" type="impl:DirectPaymentAPI">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="doAuthorization">
+      <wsdlsoap:operation soapAction="doAuthorization" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doCapture">
+      <wsdlsoap:operation soapAction="doCapture" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doRefund">
+      <wsdlsoap:operation soapAction="doRefund" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doReset">
+      <wsdlsoap:operation soapAction="doReset" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doCredit">
+      <wsdlsoap:operation soapAction="doCredit" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createWallet">
+      <wsdlsoap:operation soapAction="createWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateWallet">
+      <wsdlsoap:operation soapAction="updateWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWallet">
+      <wsdlsoap:operation soapAction="getWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="disableWallet">
+      <wsdlsoap:operation soapAction="disableWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enableWallet">
+      <wsdlsoap:operation soapAction="enableWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doImmediateWalletPayment">
+      <wsdlsoap:operation soapAction="doImmediateWalletPayment" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doScheduledWalletPayment">
+      <wsdlsoap:operation soapAction="doScheduledWalletPayment" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doRecurrentWalletPayment">
+      <wsdlsoap:operation soapAction="doRecurrentWalletPayment" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPaymentRecord">
+      <wsdlsoap:operation soapAction="getPaymentRecord" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="disablePaymentRecord">
+      <wsdlsoap:operation soapAction="disablePaymentRecord" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyEnrollment">
+      <wsdlsoap:operation soapAction="verifyEnrollment" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyAuthentication">
+      <wsdlsoap:operation soapAction="verifyAuthentication" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ExtendedAPISoapBinding" type="impl:ExtendedAPI">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getTransactionDetails">
+      <wsdlsoap:operation soapAction="getTransactionDetails" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transactionsSearch">
+      <wsdlsoap:operation soapAction="transactionsSearch" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebPaymentAPISoapBinding" type="impl:WebPaymentAPI">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getWebPaymentDetails">
+      <wsdlsoap:operation soapAction="getWebPaymentDetails" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doWebPayment">
+      <wsdlsoap:operation soapAction="doWebPayment" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createWebWallet">
+      <wsdlsoap:operation soapAction="createWebWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateWebWallet">
+      <wsdlsoap:operation soapAction="updateWebWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWebWallet">
+      <wsdlsoap:operation soapAction="getWebWallet" />
+      <wsdl:input>
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ExtendedAPI">
+    <wsdl:port name="ExtendedAPI" binding="impl:ExtendedAPISoapBinding">
+      <wsdlsoap:address location="https://test-payline.experian.fr/V4/services/ExtendedAPI" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

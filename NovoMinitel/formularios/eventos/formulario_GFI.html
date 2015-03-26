@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Minitel * Eventos</title>
+<SCRIPT LANGUAGE="javascript">
+  function Validar()
+  {
+	var Nome=document.form1.Nome.value;
+	var Empresa=document.form1.Empresa.value;
+	var Cargo=document.form1.Cargo.value;
+	var Morada=document.form1.Morada.value;
+	var CPostal=document.form1.CPostal.value;
+	var CP2=document.form1.CP2.value;
+	var Localidade=document.form1.Localidade.value;
+	var Telefone=document.form1.Telefone.value;
+	var Fax=document.form1.Fax.value;
+	var email=document.form1.email.value;
+	var Nome2=document.form1.Nome2.value;
+	var Cargo2=document.form1.Cargo2.value;
+	var email2=document.form1.email2.value;
+	
+	var xek=document.form1.MAR04.checked || document.form1.MAR11.checked || document.form1.MAR18.checked || document.form1.MAR25.checked || document.form1.ABR01.checked || document.form1.ABR08.checked || document.form1.ABR15.checked || document.form1.ABR22.checked;
+	
+	if (xek==false){alert('Tem de assinalar as formações em que deseja inscrever-se!'); return false}
+
+	if (Nome==''){alert('Por favor, introduza o seu nome!'); return false}
+	if (Empresa==''){alert('Por favor, introduza o nome da sua empresa!'); return false}
+	if (Cargo==''){alert('Por favor, introduza qual o seu cargo!'); return false}
+	if (Morada==''){alert('Por favor, introduza a sua morada!'); return false}
+	if (CPostal==''){alert('Por favor, introduza o Código Postal!'); return false}
+	if (Localidade==''){alert('Por favor, introduza a localidade!'); return false}
+	if (Telefone==''){alert('Por favor, introduza o seu telefone de contacto!'); return false}
+	if (Email==''){alert('Por favor, introduza o seu e-mail de contacto!');	return false}
+	else
+		{
+		if (Email.match(/\b(^(\S+@).+((\.com)|(\.net)|(\.edu)|(\.mil)|(\.gov)|(\.org)|(\..{2,2}))$)\b/gi)!=null)
+		{Erro=0;}
+		else
+		{	if (Email!='')
+			{
+			alert('O endereço de e-mail é inválido');
+			return false;
+			}
+		}
+	}
+
+	if (Erro==0)
+	{
+		return true;
+	 }
+	else
+	{
+		return false;
+	}
+}
+</SCRIPT>
+</head>
+<link href="../includes/Minitel.css" rel="stylesheet" type="text/css" />
+<link href="http://www.minitel.pt/includes/Minitel.css" rel="stylesheet" type="text/css" />
+<title>Formul&aacute;rio GFI</title></head>
+<form action="formularioGFI_run.asp" method="post" name="form1">
+<table width="500" border="0" align="center" cellpadding="0" cellspacing="0" id="page">
+  <tr>
+    <td valign="top">
+    <table width="500" height="500" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000" id="border">
+      <tr>
+        <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="blank">
+          <tr>
+            <td valign="top">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="20" align="center" valign="top" class="texto"><p><img src="Header_GFI.jpg" width="505" height="45" /><br />
+                    </p>
+                    </td>
+                  </tr>
+              </table>            </td>
+          </tr>
+          <tr>
+            <td height="50" align="center" valign="middle" class="Titulo_laranja">INSCRI&Ccedil;&Atilde;O</td>
+          </tr>
+                    <tr>
+            <td height="30" align="center" valign="middle" class="Texto_azul">Dados pessoais</td>
+          </tr>
+                              <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="35" height="20" class="Texto">Nome:</td>
+                <td height="20"><input name="Nome" type="text" id="Nome" size="76" maxlength="70" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                              <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="50" height="20">Empresa:</td>
+                <td height="20"><input name="Empresa" type="text" id="Empresa" size="35" maxlength="30" /></td>
+                <td width="35" height="20">Cargo:</td>
+                <td height="20"><input name="Cargo" type="text" id="Cargo" size="30" maxlength="25" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          
+                              <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="45" height="20">Morada:</td>
+                <td height="20"><input name="Morada" type="text" id="Morada" size="74" maxlength="65" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                        <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="45" height="20">C.Postal:</td>
+                <td width="60" height="20"><input name="CPostal" type="text" id="CPostal" size="10" maxlength="4" /></td>
+                <td width="10" height="20" align="center">-</td>
+                <td width="35" height="3"><label>
+                  <input name="CP2" type="text" id="CP2" size="5" maxlength="3" />
+                </label></td>
+                <td width="60" height="20">Localidade:</td>
+                <td height="20"><input name="Localidade" type="text" id="Localidade" size="43" maxlength="40" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                                  <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="50" height="20">Telefone:</td>
+                <td width="210" height="20"><input name="Telefone" type="text" id="Telefone" size="35" maxlength="30" /></td>
+                <td width="20" height="20">Fax:</td>
+                <td width="210" height="20"><input name="Fax" type="text" id="Fax" size="34" maxlength="30" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                                  <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="35" height="20">e-mail:</td>
+                <td height="20"><input name="email" type="text" id="email" size="76" maxlength="70" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                                  <tr>
+            <td height="30" align="center" valign="middle" class="Texto_azul">Gostaria de ir acompanhado(a) por outra pessoa da minha empresa:</td>
+          </tr>
+                                                  <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="35" height="20">Nome:</td>
+                <td height="20"><input name="Nome2" type="text" id="Nome2" size="76" maxlength="70" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                                  <tr>
+            <td height="25" align="center" valign="middle" class="Titulo"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="35" height="20">Cargo:</td>
+                <td height="20"><input name="Cargo2" type="text" id="Cargo2" size="25" maxlength="20" /></td>
+                <td width="35" height="20">e-mail:</td>
+                <td height="20"><input name="email2" type="text" id="email2" size="43" maxlength="40" /></td>
+              </tr>
+            </table></td>
+          </tr>
+                                        <tr>
+            <td height="30" align="center" valign="middle" class="Texto_azul">Desejo participar nas seguintes forma&ccedil;&otilde;es:</td>
+          </tr>
+          <tr>
+            <td height="28" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="5" class="Texto">
+              <tr>
+                <td width="15"><label>
+                  <input name="MAR04" type="checkbox" id="MAR04" value="1" />
+                </label></td>
+                <td width="50">4 Mar&ccedil;o</td>
+                <td>GFI LANguard Network Security Scanner <br /></td>
+                <td width="10">&nbsp;</td>
+                <td width="15"><label>
+                  <input name="ABR01" type="checkbox" id="ABR01" value="1" />
+                </label></td>
+                <td width="50">1 Abril</td>
+                <td height="20">GFI MailEssentials </td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input name="MAR11" type="checkbox" id="MAR11" value="1" />
+                </label></td>
+                <td>11 Mar&ccedil;o</td>
+                <td>GFI Network Server Monitor </td>
+                <td>&nbsp;</td>
+                <td><label>
+                  <input name="ABR08" type="checkbox" id="ABR08" value="1" />
+                </label></td>
+                <td>8 Abril</td>
+                <td height="20">GFI MailSecurity </td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input name="MAR18" type="checkbox" id="MAR18" value="1" />
+                </label></td>
+                <td>18 Mar&ccedil;o</td>
+                <td> GFI WebMonitor </td>
+                <td>&nbsp;</td>
+                <td><label>
+                  <input name="ABR15" type="checkbox" id="ABR15" value="1" />
+                </label></td>
+                <td>15 Abril</td>
+                <td height="20">GFI MailArchiver </td>
+              </tr>
+              <tr>
+                <td><label>
+                  <input name="MAR25" type="checkbox" id="MAR25" value="1" />
+                </label></td>
+                <td>25 Mar&ccedil;o</td>
+                <td>GFI FAXmaker </td>
+                <td>&nbsp;</td>
+                <td><label>
+                  <input name="ABR22" type="checkbox" id="ABR22" value="1" />
+                </label></td>
+                <td>22 Abril</td>
+                <td height="20">GFI EndPoint Security</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr align="center" valign="top">
+            <td height="60" valign="middle" class="texto"><label>
+              <input type="submit" name="button" id="button" value="Submeter" />
+            </label></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<input type="hidden" name="EventoNome" value="GFI">
+</form>
+</body>
+</html>

@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Suporte</title>
+
+<style type="text/css">
+.colorbox {
+	font-family: "helvetica regular";
+	font-size: 10px;
+	color: hsla(0,0%,22%,1);
+	background-color: hsla(0,0%,82%,1);
+	background-image: url(/banners/modecom/suporte/botao_enviar.jpg);
+	text-align: left;
+	word-spacing: normal;
+	white-space: normal;
+}
+.colorbox {
+	color: hsla(0,0%,22%,1);
+	background-image: url(/banners/modecom/suporte/botao_enviar.jpg);
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: rgba(23,23,23,1);
+}
+</style>
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.accordion.custom.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+<body>
+<div align="center"><img src="http://www.minitel.pt/banners/modecom/suporte/header.png" width="810" height="290" alt=""/><!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Selectmenu - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+<script style="color: hsla(359,77%,88%,1)">
+  $(function() {
+    $( "#speed" ).selectmenu();
+ 
+    $( "#files" ).selectmenu();
+ 
+    $( "#number" )
+      .selectmenu()
+      .selectmenu( "menuWidget" )
+        .addClass( "overflow" );
+  });
+  </script>
+  <style>
+    fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 10px 0 0 0;
+    }
+    select {
+      width: 800px;
+    }
+    .overflow {
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+ 
+<div class="demo">
+ 
+<form action="#">
+ 
+  <fieldset>
+<div align="center">
+<label for="speed" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif"><span for="speed" style="text-align: left; color: rgba(255,255,255,1);">Seleccione o  TABLET MODECOM</span></label>
+<span for="speed" style="text-align: left">
+<select name="speed" id="speed">
+      <option selected>FREETAB 7800</option>
+      <option>FREETAB 1010</option>
+      <option>FREETAB 7001</option>
+      <option>FREETAB 9706  </option>
+      <option>FREETAB 2099  </option>
+</select>
+      <a href="mailto:frederico.carvalho@minitel.pt">
+      </p>
+      </a>
+<p align="center"><img src="http://www.minitel.pt/banners/modecom/suporte/botao_faqs_produto.jpg" width="811" height="242" alt=""/>
+</body>
+</html>
+</span>
+<span for="speed" style="text-align: left">
+<p align="center">
+</span> </div>
+<div>
+</div>
+</div>
+<p align="center"><img src="http://www.minitel.pt/banners/modecom/suporte/botao_opinioes.png" alt="" width="811" height="84" usemap="#Map"/><map name="Map">
+    <area shape="rect" coords="538,6,789,71" href="https://apps.facebook.com/forumforpages/1455074974744621/d5e41e5f-0cd1-4e6e-ba28-a37b7d12c156/0" target="_blank">
+ </map>
+<p align="><a target="_blank" href="http://support-en-us.nikeplus.com/app/answers/detail/article/connect-install/" class="clearfix">
+<div class="lfloat faq-id">1.</div>
+<div class="f-a-q-arrow lfloat"></div>
+                    </a>
+                    
+<p align="center">
+<p align="center">
+<div align="center">
+  <table width="811" border="0">
+    <tbody>
+      <tr>
+        <th scope="col"><img src="http://www.minitel.pt/banners/modecom/suporte/botao_enviar1.jpg" width="811" height="68" alt=""/></th>
+      </tr>
+      <tr>
+        <td><textarea name="question" class="ca-question" placeholder="Escreva aqui a sua questão..." title="Questão"></textarea></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p align="center"> <script type="text/javascript">
+$(function() {
+	$( "#Buttonset1" ).buttonset(); 
+});
+  </script>
+  </div>
+<p align="center">
+<p align="center">
+<p align="center">
+<p align="center">
+<div></div>
+<p align="center">
+
+<input name="enviar" type="submit" id="enviar" formaction="mailto:frederico.carvalho@minitel.pt" formtarget="_blank">
+
+</body>
+</html>

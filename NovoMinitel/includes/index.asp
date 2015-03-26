@@ -1,0 +1,1 @@
+<%response.Redirect("DO_logout_run.asp")%>
