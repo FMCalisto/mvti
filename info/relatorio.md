@@ -30,7 +30,7 @@ João Miranda
 
 (ALTERAR SEMPRE QUE NECESSÁRIO)
 
-6h
+7h
 
 Nota: esta estimativa a contabilização de horas efectivas para programação do site
 e respectivas implementações, etc... Assim como o tempo de obtenção de conhecimento, etc...
@@ -163,10 +163,28 @@ tarde numa segunda versão ```(v2.0)``` será então aprimorado a parte da Inter
 como incorporar o sistema PHC no mesmo.
 
 
-#### 25/03/2015
+### 25/03/2015
+
+@author: Francisco Maria Calisto
 
 Reuni-me com o eu colega João Miranda via Skype para discutir assuntos do projecto e abordagens possiveis assim
 como orçamentos e metodologias de trabalho.
+
+
+### 26/03/2015
+
+@author: Francisco Maria Calisto
+
+Tive uma Reunião via Skype, que durou 36:19 minutos, das 19:52 às 20:28, onde começamos a analisar o PDF do Netcaixa, escrito pela CaixaTec, o "Guia de Implementação
+Técnica ASPX.NET 4.0, do TPA Virtual Hosted, com o objectivo de melhor mapear as inforações necessária para efeitos de
+metas, orçamentos e concretização da implementação.
+
+Começamos por debater o problema da falta de tempo para conseguirmos chegar a uma Análise conclusiva e realista e, por
+tanto, chegamos à conclusão que dado a problemas de agenda, teremos que alargar o extender o periodo de Análise para
+para que a conclusão seja fidedigna.
+
+Por essa razão achamos por bem agendar uma data para a semana seguinte a esta, no dia 31/03/2015, Terça Feira, enviando
+a Análise antes de almoço, pelas 12:00.
 
 
 
