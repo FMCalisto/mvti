@@ -30,7 +30,7 @@ João Miranda
 
 (ALTERAR SEMPRE QUE NECESSÁRIO)
 
-7h
+10h
 
 Nota: esta estimativa a contabilização de horas efectivas para programação do site
 e respectivas implementações, etc... Assim como o tempo de obtenção de conhecimento, etc...
@@ -125,7 +125,7 @@ analisada toda esta situação.
 #### Parte 1
 
 O problema base é a necessidade de desenvolver e integrar a plataforma TPA Virtual da Caixa Geral de Depósitos no
-web-site da Minitel para que os clientes possam de uma forma alternativa pagar assim via ***Multibanco**** ou
+web-site da Minitel para que os clientes possam de uma forma alternativa pagar assim via ***Multibanco*** ou
 via ***VISA*** e desta forma agilizar o processo de compra e encomenda.
 
 É por isso vital Analisar no Código onde é feito e de como é feito o pagamento no site, apurando assim onde se
@@ -186,15 +186,41 @@ para que a conclusão seja fidedigna.
 Por essa razão achamos por bem agendar uma data para a semana seguinte a esta, no dia 31/03/2015, Terça Feira, enviando
 a Análise antes de almoço, pelas 12:00.
 
+
 ### 31/03/2015
 
-@authpr: João Miranda
+@author: João Miranda
 
 Iniciei uma análise profunda código do site da Minitel. Deparei me com a dificuldade de não poder testar alterações nem
 perceber a localidade, no código, das várias zonas do website. Isso deveu-se, respectivamente, aos seguintes factos. Em
 primeiro lugar, não posso fazer deploy de uma versão fora do alojamento actual da Minitel e não tenho ainda acesso ao mesmo.
 Em segundo lugar, não possuo as credenciais de um utilizador de teste, por forma a simular uma compra. Este processo durou 30
 minutos sozinho, mais 1 hora e 30 minutos em reunião com o Francisco Calisto via Skype, fazendo assim um total de 2 horas.
+
+@author: Francisco Maria Calisto
+
+Estive com o meu colega João Miranda em Reunião via skype para delimitar e analisar de uma forma mais profunda desta vez todo o código envolvente do site da Minitel.
+
+Estivemos para isso numa Reunião que durou aproximadamente 2h, delimitando uma série de metas para os nossos objectivos e entregas:
+
+#### Parte 1
+
+1) Relatar para com a Minitel a falta de Documentação no que toca ao site e às tecnologias do mesmo;
+
+2) Estimamos que o trabalho ficaria num Total de 20h de trabalho;
+
+3) O mesmo estaria acabado no final de Quarta Feira, dia 01/03/2015, ou inicio de Quita Feira, dia 02/03/2015, caso contrário será cancelado;
+
+3.1) A inviabilidade de concluir numero de horas deve-se sobretudo aos pontos acia referidos, o limite estabelecido em 2) deve-se às nossas restrições de tempo;
+
+#### Parte 2
+
+Necessidades do projecto:
+
+a) Será necessário pedir um ```Utilizador Registado``` para compreender em que ficheiros está a ser efectuada a compra;
+
+b) Também será fundamental criar uma VPN para se testar directamente no lado servidor;
+
 
 
 
