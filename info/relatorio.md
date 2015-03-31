@@ -186,6 +186,15 @@ para que a conclusão seja fidedigna.
 Por essa razão achamos por bem agendar uma data para a semana seguinte a esta, no dia 31/03/2015, Terça Feira, enviando
 a Análise antes de almoço, pelas 12:00.
 
+### 31/03/2015
+
+@authpr: João Miranda
+
+Iniciei uma análise profunda código do site da Minitel. Deparei me com a dificuldade de não poder testar alterações nem
+perceber a localidade, no código, das várias zonas do website. Isso deveu-se, respectivamente, aos seguintes factos. Em
+primeiro lugar, não posso fazer deploy de uma versão fora do alojamento actual da Minitel e não tenho ainda acesso ao mesmo.
+Em segundo lugar, não possuo as credenciais de um utilizador de teste, por forma a simular uma compra. Este processo durou 30
+minutos sozinho, mais 1 hora e 30 minutos em reunião com o Francisco Calisto via Skype, fazendo assim um total de 2 horas.
 
 
 
